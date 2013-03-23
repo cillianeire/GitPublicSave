@@ -1,0 +1,6941 @@
+GAME
+{
+	version = 0.19.1
+	Title = default (Sandbox)
+	Description = No description available.
+	Mode = 0
+	Status = 1
+	scene = 5
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.19.1
+		UT = 1763.05832763636
+		activeVessel = 0
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 0
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 0
+			ToD = 0
+			idx = -1
+		}
+		VESSEL
+		{
+			pid = e4ba9deb589b4a9f8b8bf7aff6a50952
+			name = Justnofreakingway Was Here
+			type = Ship
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 1443.57832763636
+			lct = 319.48
+			root = 0
+			lat = 0.0756886105543654
+			lon = 51.3606813102143
+			alt = 286326.025363718
+			hgt = -1
+			nrm = -0.07761136,0.9943953,-0.07179637
+			rot = -0.6540912,0.6634986,0.2755077,0.2367065
+			CoM = 0.0005957204,-7.800751,-1.084631E-05
+			stg = 0
+			prst = False
+			eva = False
+			ref = 161220409
+			cPch = 0.0340001
+			cHdg = 0.2279998
+			cMod = 1
+			ORBIT
+			{
+				SMA = 886313.946683134
+				ECC = 5.68860996884886E-05
+				INC = 0.280215393548281
+				LPE = 110.592073797871
+				LAN = 155.073381924916
+				MNA = 4.62662611864412
+				EPH = 1763.05832763636
+				REF = 1
+				OBJ = 0
+			}
+			PART
+			{
+				name = mk1pod
+				uid = 161220409
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.8
+				temp = -201.4524
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				crew = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCommand
+					isEnabled = True
+					controlSrcStatusText = Operational
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 50
+					maxAmount = 50
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = advSasModule
+				uid = 4109674035
+				parent = 0
+				position = 0,-0.604068756103516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.1
+				temp = -201.9685
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = RCSTank1-2
+				uid = 325573670
+				parent = 1
+				position = 0,-1.3030891418457,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 0.4
+				temp = -204.0126
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = MonoPropellant
+					amount = 749.362233751453
+					maxAmount = 750
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = fuelTank3-2
+				uid = 3107470224
+				parent = 2
+				position = 0,-5.5530891418457,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 44
+				mass = 4
+				temp = -205.8967
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 1404.25679759507
+					maxAmount = 2880
+					flowState = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 1716.31377685222
+					maxAmount = 3520
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4016006185
+				parent = 3
+				position = 0.000742614269256592,-3.10939025878906,1.26708936691284
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 5
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -202.2738
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 532171600
+				parent = 3
+				position = -0.000742405652999878,-3.10939025878906,-1.26708960533142
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 4
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -202.1343
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 2627052310
+				parent = 3
+				position = 2.98023223876953E-07,-4.34695053100586,1.20745837688446
+				rotation = -0.7071068,-6.181724E-08,6.181724E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 7
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -202.2358
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 288900260
+				parent = 3
+				position = -8.94069671630859E-08,-4.34695053100586,-1.20745754241943
+				rotation = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 6
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -202.0293
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 1642368071
+				parent = 3
+				position = 2.98023223876953E-07,-6.96648788452148,1.20870137214661
+				rotation = -0.7071068,-6.181724E-08,6.181724E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 9
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -201.8079
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 1107687475
+				parent = 3
+				position = -8.94069671630859E-08,-6.96648788452148,-1.20870053768158
+				rotation = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 8
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -201.6142
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 1666313180
+				parent = 3
+				position = 0.000742614269256592,-8.25127792358398,1.26455247402191
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 11
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -201.2447
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4168994095
+				parent = 3
+				position = -0.000742405652999878,-8.25127792358398,-1.2645525932312
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 10
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -201.1195
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleRCS
+					isEnabled = True
+					isEnabled = True
+					EVENTS
+					{
+						Disable
+						{
+							active = True
+							guiActive = True
+							guiIcon = Disable RCS Port
+							guiName = Disable RCS Port
+							category = Disable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Enable
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable RCS Port
+							guiName = Enable RCS Port
+							category = Enable RCS Port
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = trussPiece1x
+				uid = 2131530053
+				parent = 3
+				position = 1.77017116546631,-2.83950805664063,-2.26777046918869E-07
+				rotation = -0.4999999,-0.5000001,0.5000001,-0.4999999
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 23
+				srfN = srfAttach, 3
+				attN = None, -1
+				attN = top, 13
+				mass = 0.125
+				temp = -201.2827
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = stationHub
+				uid = 4046978701
+				parent = 12
+				position = 3.24159812927246,-2.83950805664063,1.44075602293015E-06
+				rotation = 0.7071068,0.7071068,-4.214685E-08,-4.214685E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 24
+				srfN = None, -1
+				attN = right, 22
+				attN = left, 14
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = bottom, 12
+				mass = 1.5
+				temp = -200.942
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 1239415753
+				parent = 13
+				position = 3.24159812927246,-4.32698822021484,-1.98837369680405E-07
+				rotation = 0,0.7071069,-1.199737E-17,-0.7071069
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 25
+				srfN = None, -1
+				attN = top, 13
+				attN = bottom, 15
+				mass = 0.125
+				temp = -200.6759
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 198177458
+				parent = 14
+				position = 3.24159932136536,-5.47760772705078,1.38068571686745E-06
+				rotation = 0,0.7071069,-1.199737E-17,-0.7071069
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 26
+				srfN = None, -1
+				attN = top, 14
+				attN = bottom, 16
+				mass = 0.125
+				temp = -200.619
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 1263486699
+				parent = 15
+				position = 3.24160265922546,-6.62823867797852,2.85357236862183E-06
+				rotation = 0,0.7071069,-1.199737E-17,-0.7071069
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 27
+				srfN = None, -1
+				attN = top, 15
+				attN = bottom, 17
+				mass = 0.125
+				temp = -200.7339
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 2594296439
+				parent = 16
+				position = 3.24160766601563,-7.77889251708984,4.16021794080734E-06
+				rotation = 0,0.7071069,-1.199737E-17,-0.7071069
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 28
+				srfN = None, -1
+				attN = top, 16
+				attN = bottom, 19
+				mass = 0.125
+				temp = -201.1388
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 312472190
+				parent = 17
+				position = 2.67540192604065,-8.19844055175781,-0.151712626218796
+				rotation = -2.980235E-07,0.1305261,-1.013279E-06,-0.991445
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: fuelTank1-2_44; pos: -1.415732,-2.358999,0.3883488; dir: -0.5095716,-0.8490169,0.1396677
+				sym = 29
+				srfN = srfAttach, 17
+				mass = 0.05
+				temp = -200.3266
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = sasModule
+				uid = 713429652
+				parent = 17
+				position = 3.24161720275879,-8.53642272949219,4.71202656626701E-06
+				rotation = 0,1,0,2.980228E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 30
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 17
+				mass = 0.07
+				temp = -200.092
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1107823095
+				parent = 17
+				position = 3.09169983863831,-8.26720428466797,0.559499680995941
+				rotation = -8.195641E-08,-0.6087615,-8.195637E-08,-0.7933535
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: fuelTank1-2_44; pos: -0.7220557,-2.28017,-2.004772; dir: -0.2313356,-0.7305915,-0.6424328
+				sym = 31
+				srfN = srfAttach, 17
+				mass = 0.05
+				temp = -199.8636
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 2758533152
+				parent = 17
+				position = 3.09072303771973,-8.22164154052734,-0.563135147094727
+				rotation = -8.940699E-08,0.6087614,-8.940695E-08,-0.7933535
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: fuelTank1-2_44; pos: -1.207502,-2.394604,2.375325; dir: -0.3370827,-0.6684173,0.6630185
+				sym = 32
+				srfN = srfAttach, 17
+				mass = 0.05
+				temp = -199.629
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = sasModule
+				uid = 1055119194
+				parent = 13
+				position = 3.24159812927246,-1.74514007568359,2.34507024288177E-06
+				rotation = 0,1,0,-8.940699E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 33
+				srfN = None, -1
+				attN = bottom, 13
+				attN = None, -1
+				mass = 0.07
+				temp = -200.0222
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = trussPiece1x
+				uid = 3485049737
+				parent = 3
+				position = -1.77017188072205,-2.83950805664063,7.21774995326996E-08
+				rotation = -0.5,0.5,-0.5,-0.5
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 12
+				srfN = srfAttach, 3
+				attN = None, -1
+				attN = top, 24
+				mass = 0.125
+				temp = -201.2088
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = stationHub
+				uid = 2206829178
+				parent = 23
+				position = -3.24159789085388,-2.83950805664063,7.21774995326996E-08
+				rotation = 0,0,0.7071068,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 13
+				srfN = None, -1
+				attN = right, 33
+				attN = left, 25
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = bottom, 23
+				mass = 1.5
+				temp = -200.9202
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 1564121579
+				parent = 24
+				position = -3.24159693717957,-4.32698822021484,3.25962901115417E-09
+				rotation = 0,0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 14
+				srfN = None, -1
+				attN = top, 24
+				attN = bottom, 26
+				mass = 0.125
+				temp = -200.6695
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 2230385484
+				parent = 25
+				position = -3.24159693717957,-5.47760772705078,-6.56582415103912E-08
+				rotation = 0,0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 15
+				srfN = None, -1
+				attN = top, 25
+				attN = bottom, 27
+				mass = 0.125
+				temp = -200.619
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 1195178216
+				parent = 26
+				position = -3.24159693717957,-6.62823867797852,-1.35041773319244E-07
+				rotation = 0,0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 16
+				srfN = None, -1
+				attN = top, 26
+				attN = bottom, 28
+				mass = 0.125
+				temp = -200.7336
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = dockingPortLateral
+				uid = 4174547039
+				parent = 27
+				position = -3.24159693717957,-7.77886962890625,-2.0395964384079E-07
+				rotation = 0,0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 17
+				srfN = None, -1
+				attN = top, 27
+				attN = bottom, 30
+				mass = 0.125
+				temp = -201.1389
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDockingNode
+					isEnabled = True
+					state = Disabled
+					dockUId = 0
+					dockNodeIdx = 0
+					EVENTS
+					{
+						Undock
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						UndockSameVessel
+						{
+							active = False
+							guiActive = True
+							guiIcon = Undock
+							guiName = Undock
+							category = Undock
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple Node
+							guiName = Decouple Node
+							category = Decouple Node
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						SetAsTarget
+						{
+							active = True
+							guiActive = False
+							guiIcon = Set as Target
+							guiName = Set as Target
+							category = Set as Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						UnsetTarget
+						{
+							active = False
+							guiActive = False
+							guiIcon = Unset Target
+							guiName = Unset Target
+							category = Unset Target
+							guiActiveUnfocused = True
+							unfocusedRange = 200
+							externalToEVAOnly = False
+						}
+						EnableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Enable Crossfeed
+							guiName = Enable Crossfeed
+							category = Enable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DisableXFeed
+						{
+							active = False
+							guiActive = True
+							guiIcon = Disable Crossfeed
+							guiName = Disable Crossfeed
+							category = Disable Crossfeed
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						MakeReferenceTransform
+						{
+							active = True
+							guiActive = True
+							guiIcon = Control from Here
+							guiName = Control from Here
+							category = Control from Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						UndockAction
+						{
+							actionGroup = None
+						}
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiIcon = Toggle
+							guiName = toggle
+							category = Toggle
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3950606553
+				parent = 28
+				position = -2.67538189888,-8.19841766357422,0.151716887950897
+				rotation = 1.013279E-06,0.991445,-2.384186E-07,0.1305262
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: fuelTank1-2_44; pos: -1.415793,-2.358837,0.3883355; dir: -0.5095716,-0.8490169,0.1396677
+				sym = 18
+				srfN = srfAttach, 28
+				mass = 0.05
+				temp = -200.3266
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = sasModule
+				uid = 825821367
+				parent = 28
+				position = -3.24159693717957,-8.53641128540039,-1.3597309589386E-07
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 19
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 28
+				mass = 0.07
+				temp = -200.092
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 2661499278
+				parent = 28
+				position = -3.09168076515198,-8.26717758178711,-0.559493958950043
+				rotation = 8.568168E-08,0.7933535,-8.568168E-08,-0.6087615
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: fuelTank1-2_44; pos: -0.7220442,-2.280135,-2.004836; dir: -0.2313356,-0.7305915,-0.6424328
+				sym = 20
+				srfN = srfAttach, 28
+				mass = 0.05
+				temp = -199.8636
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1767703913
+				parent = 28
+				position = -3.09070587158203,-8.22161865234375,0.563138484954834
+				rotation = -4.097819E-08,0.7933534,1.862645E-08,0.6087615
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: fuelTank1-2_44; pos: -1.207536,-2.394492,2.375413; dir: -0.3370827,-0.6684173,0.6630185
+				sym = 21
+				srfN = srfAttach, 28
+				mass = 0.05
+				temp = -199.6294
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = sasModule
+				uid = 1325992759
+				parent = 24
+				position = -3.24159789085388,-1.74514007568359,-3.67872416973114E-08
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				sym = 22
+				srfN = None, -1
+				attN = bottom, 24
+				attN = None, -1
+				mass = 0.07
+				temp = -200.0095
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3745514883
+				parent = 3
+				position = 1.05201506614685,-8.11737823486328,0.607380986213684
+				rotation = 0,-0.9659259,0,-0.258819
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_17; pos: -1.304664,-0.1025224,1.125083; dir: -0.7560669,-0.05948659,0.6517854
+				sym = 35
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -200.796
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 2620114799
+				parent = 3
+				position = -1.05201482772827,-8.11737823486328,-0.607381105422974
+				rotation = 0,0.258819,0,-0.9659259
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_28; pos: -1.304169,-0.1027477,1.12487; dir: -0.7560669,-0.05948659,0.6517854
+				sym = 34
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -200.6628
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1498269422
+				parent = 3
+				position = -1.04641079902649,-8.13747024536133,0.604146003723145
+				rotation = 0,-0.2588191,0,-0.9659259
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_28; pos: -1.514221,-0.07216267,-1.046323; dir: -0.8219469,-0.03910893,-0.5682198
+				sym = 37
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -200.5273
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1586790718
+				parent = 3
+				position = 1.04641115665436,-8.13747024536133,-0.60414582490921
+				rotation = 0,0.9659259,0,-0.2588191
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_17; pos: -1.514648,-0.07195993,-1.046646; dir: -0.8219469,-0.03910893,-0.5682198
+				sym = 36
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -200.3964
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = ksp.r.largeBatteryPack
+				uid = 1151842187
+				parent = 3
+				position = 1.20915305614471,-4.64031982421875,-1.77882611751556E-07
+				rotation = 0,-0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 39
+				srfN = srfAttach, 3
+				mass = 0.02
+				temp = -200.2632
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 400
+					maxAmount = 400
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = ksp.r.largeBatteryPack
+				uid = 698791355
+				parent = 3
+				position = -1.20915281772614,-4.64031982421875,7.21774995326996E-08
+				rotation = 0,-0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 38
+				srfN = srfAttach, 3
+				mass = 0.02
+				temp = -200.0539
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 400
+					maxAmount = 400
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = ksp.r.largeBatteryPack
+				uid = 3345650080
+				parent = 3
+				position = 1.21564674377441,-5.75355911254883,-1.78813934326172E-07
+				rotation = 9.64136E-07,-0.7071068,1.088713E-06,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 41
+				srfN = srfAttach, 3
+				mass = 0.02
+				temp = -199.8353
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 400
+					maxAmount = 400
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = ksp.r.largeBatteryPack
+				uid = 901643180
+				parent = 3
+				position = -1.2156468629837,-5.75355911254883,7.21774995326996E-08
+				rotation = -1.088713E-06,-0.7071068,9.641361E-07,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 40
+				srfN = srfAttach, 3
+				mass = 0.02
+				temp = -199.6185
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 400
+					maxAmount = 400
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = ksp.r.largeBatteryPack
+				uid = 2582658301
+				parent = 3
+				position = 1.20827555656433,-6.80088043212891,-1.77882611751556E-07
+				rotation = 0,-0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 43
+				srfN = srfAttach, 3
+				mass = 0.02
+				temp = -199.4323
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 400
+					maxAmount = 400
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = ksp.r.largeBatteryPack
+				uid = 3620955667
+				parent = 3
+				position = -1.20827579498291,-6.80088043212891,7.21774995326996E-08
+				rotation = 0,-0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 42
+				srfN = srfAttach, 3
+				mass = 0.02
+				temp = -199.2366
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 400
+					maxAmount = 400
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 164408584
+				parent = 3
+				position = 0,-11.1780891418457,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 45
+				mass = 2
+				temp = -206.8377
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 1440
+					maxAmount = 1440
+					flowState = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 1760
+					maxAmount = 1760
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 2818695535
+				parent = 44
+				position = 0,-14.1183986663818,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 44
+				attN = None, -1
+				mass = 6
+				temp = -202.0363
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleEngines
+					isEnabled = True
+					EngineIgnited = True
+					engineShutdown = False
+					currentThrottle = 0
+					flameout = False
+					staged = True
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Engine
+							guiName = Activate Engine
+							category = Activate Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = True
+							guiActive = True
+							guiIcon = Shutdown Engine
+							guiName = Shutdown Engine
+							category = Shutdown Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					EVENTS
+					{
+						Jettison
+						{
+							active = False
+							guiActive = True
+							guiIcon = Jettison
+							guiName = Jettison
+							category = Jettison
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleGimbal
+					isEnabled = True
+					gimbalLock = False
+					EVENTS
+					{
+						LockGimbal
+						{
+							active = True
+							guiActive = True
+							guiIcon = Lock Gimbal
+							guiName = Lock Gimbal
+							category = Lock Gimbal
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						FreeGimbal
+						{
+							active = False
+							guiActive = True
+							guiIcon = Free Gimbal
+							guiName = Free Gimbal
+							category = Free Gimbal
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 0.0399999991059303
+					maxAmount = 0.0399999991059303
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1033254034
+				parent = 44
+				position = -0.854060888290405,-9.79692840576172,-0.854060649871826
+				rotation = 0,0.3826833,0,-0.9238796
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 50
+				sym = 51
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -202.8023
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 406638267
+				parent = 44
+				position = -1.20782387256622,-9.79692840576172,4.70317900180817E-08
+				rotation = 0,-8.42937E-08,0,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 48
+				sym = 49
+				sym = 50
+				sym = 51
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -202.604
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1684767975
+				parent = 44
+				position = -0.854060888290405,-9.79692840576172,0.854060769081116
+				rotation = 0,-0.3826835,0,-0.9238796
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 47
+				sym = 49
+				sym = 50
+				sym = 51
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -202.4063
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1175375651
+				parent = 44
+				position = 2.08616256713867E-07,-9.79692840576172,1.20782446861267
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 47
+				sym = 48
+				sym = 50
+				sym = 51
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -202.2087
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 344151803
+				parent = 44
+				position = 0.854061007499695,-9.79692840576172,0.854060590267181
+				rotation = 0,-0.9238796,0,-0.3826833
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 51
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -202.0117
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2284447708
+				parent = 44
+				position = 1.20782434940338,-9.79692840576172,-1.91852450370789E-07
+				rotation = 0,-1,0,8.42937E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 50
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -201.8152
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 4030405587
+				parent = 44
+				position = 0.854060530662537,-9.79692840576172,-0.854061126708984
+				rotation = 0,-0.9238795,0,0.3826837
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 50
+				sym = 51
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -201.6189
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1541615782
+				parent = 44
+				position = -8.94069671630859E-08,-9.79692840576172,-1.20782458782196
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 46
+				sym = 47
+				sym = 48
+				sym = 49
+				sym = 50
+				sym = 51
+				sym = 52
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -201.4232
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2780543598
+				parent = 44
+				position = -0.85378885269165,-10.8579177856445,-0.853788316249847
+				rotation = 0,0.3826833,0,-0.9238796
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 55
+				sym = 56
+				sym = 57
+				sym = 58
+				sym = 59
+				sym = 60
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -201.2647
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2876096323
+				parent = 44
+				position = -1.20743882656097,-10.8579177856445,4.70317900180817E-08
+				rotation = 0,-8.42937E-08,0,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 56
+				sym = 57
+				sym = 58
+				sym = 59
+				sym = 60
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -201.0442
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 4092168592
+				parent = 44
+				position = -0.85378885269165,-10.8579177856445,0.853788495063782
+				rotation = 0,-0.3826835,0,-0.9238796
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 57
+				sym = 58
+				sym = 59
+				sym = 60
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -200.8245
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 598892139
+				parent = 44
+				position = 2.08616256713867E-07,-10.8579177856445,1.20743942260742
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 56
+				sym = 58
+				sym = 59
+				sym = 60
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -200.6051
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 3065780262
+				parent = 44
+				position = 0.853788733482361,-10.8579177856445,0.853788256645203
+				rotation = 0,-0.9238796,0,-0.3826833
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 56
+				sym = 57
+				sym = 59
+				sym = 60
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -200.3863
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1115963110
+				parent = 44
+				position = 1.20743906497955,-10.8579177856445,-1.91852450370789E-07
+				rotation = 0,-1,0,8.42937E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 56
+				sym = 57
+				sym = 58
+				sym = 60
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -200.1678
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2792570508
+				parent = 44
+				position = 0.853788137435913,-10.8579177856445,-0.853788793087006
+				rotation = 0,-0.9238795,0,0.3826837
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 56
+				sym = 57
+				sym = 58
+				sym = 59
+				sym = 61
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -199.9498
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2437679231
+				parent = 44
+				position = -8.94069671630859E-08,-10.8579177856445,-1.20743954181671
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 56
+				sym = 57
+				sym = 58
+				sym = 59
+				sym = 60
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -199.7324
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 765144381
+				parent = 44
+				position = -0.854723811149597,-11.9027976989746,-0.854723393917084
+				rotation = 0,0.3826833,0,-0.9238796
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 63
+				sym = 64
+				sym = 65
+				sym = 66
+				sym = 67
+				sym = 68
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -199.5237
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 543412288
+				parent = 44
+				position = -1.20876181125641,-11.9027976989746,4.70317900180817E-08
+				rotation = 0,-8.42937E-08,0,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 64
+				sym = 65
+				sym = 66
+				sym = 67
+				sym = 68
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -199.3134
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2764442092
+				parent = 44
+				position = -0.854723811149597,-11.9027976989746,0.854723453521729
+				rotation = 0,-0.3826835,0,-0.9238796
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 63
+				sym = 65
+				sym = 66
+				sym = 67
+				sym = 68
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -199.1035
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1592429817
+				parent = 44
+				position = 2.08616256713867E-07,-11.9027976989746,1.20876145362854
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 63
+				sym = 64
+				sym = 66
+				sym = 67
+				sym = 68
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -198.8938
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 696533259
+				parent = 44
+				position = 0.854723691940308,-11.9027976989746,0.854723393917084
+				rotation = 0,-0.9238796,0,-0.3826833
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 63
+				sym = 64
+				sym = 65
+				sym = 67
+				sym = 68
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -198.6849
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 2247955403
+				parent = 44
+				position = 1.20876145362854,-11.9027976989746,-1.91852450370789E-07
+				rotation = 0,-1,0,8.42937E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 63
+				sym = 64
+				sym = 65
+				sym = 66
+				sym = 68
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -198.4762
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 1847418071
+				parent = 44
+				position = 0.854723215103149,-11.9027976989746,-0.854723811149597
+				rotation = 0,-0.9238795,0,0.3826837
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 63
+				sym = 64
+				sym = 65
+				sym = 66
+				sym = 67
+				sym = 69
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -198.268
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels3
+				uid = 3609417649
+				parent = 44
+				position = -8.94069671630859E-08,-11.9027976989746,-1.20876157283783
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 62
+				sym = 63
+				sym = 64
+				sym = 65
+				sym = 66
+				sym = 67
+				sym = 68
+				srfN = srfAttach, 44
+				mass = 0.0175
+				temp = -198.0602
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (-0.7071068, 0, 0, 0.7071068)
+					stateString = RETRACTED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 1
+					EVENTS
+					{
+						Extend
+						{
+							active = True
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = Custom01
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 2200289647
+				parent = 44
+				position = 0.567833423614502,-10.060230255127,1.36224341392517
+				rotation = 8.346987E-07,-0.8660257,4.819128E-07,-0.4999995
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 71
+				srfN = srfAttach, 44
+				mass = 0.1
+				temp = -197.9372
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 2367704500
+				parent = 44
+				position = -0.567833304405212,-10.060230255127,-1.36224353313446
+				rotation = -4.819129E-07,0.4999996,8.346987E-07,-0.8660257
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 70
+				srfN = srfAttach, 44
+				mass = 0.1
+				temp = -197.7497
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 1734238604
+				parent = 44
+				position = -0.600371599197388,-10.0590705871582,1.34345841407776
+				rotation = 4.819116E-07,-0.4999987,8.346981E-07,-0.8660262
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 73
+				srfN = srfAttach, 44
+				mass = 0.1
+				temp = -197.5623
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 3781247588
+				parent = 44
+				position = 0.600371718406677,-10.0590705871582,-1.34345853328705
+				rotation = -8.346982E-07,0.8660262,4.819116E-07,-0.4999987
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 72
+				srfN = srfAttach, 44
+				mass = 0.1
+				temp = -197.3757
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3627929913
+				parent = 3
+				position = 1.1832640171051,-6.30569839477539,0.317054480314255
+				rotation = 0,-0.9914449,0,-0.1305261
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_16; pos: -1.622766,0.1492202,0.3212682; dir: -0.977044,0.0897986,0.1931869
+				sym = 75
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -199.0137
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3708600095
+				parent = 3
+				position = -1.18326377868652,-6.30569839477539,-0.317054510116577
+				rotation = 0,0.1305262,0,-0.9914449
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_27; pos: -1.622537,0.1490417,0.3213543; dir: -0.977044,0.0897986,0.1931869
+				sym = 74
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -198.8044
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 2206660824
+				parent = 3
+				position = -1.04616677761078,-6.25284957885742,0.604005098342896
+				rotation = 0,-0.2588191,0,-0.9659259
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_27; pos: -1.108916,0.113738,-1.321838; dir: -0.641156,0.06581412,-0.7645832
+				sym = 77
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -198.5943
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3187585519
+				parent = 3
+				position = 1.04616725444794,-6.25284957885742,-0.604005038738251
+				rotation = 0,0.9659259,0,-0.2588191
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: dockingPortLateral_16; pos: -1.108955,0.1139149,-1.322042; dir: -0.641156,0.06581412,-0.7645832
+				sym = 76
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -198.382
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 2763977272
+				parent = 3
+				position = 0.514838933944702,-8.40116882324219,1.39284241199493
+				rotation = -1.136048E-07,-0.8660257,-6.558967E-08,-0.4999994
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 80
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = -199.3165
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1542575383
+				parent = 78
+				position = 0.632588982582092,-8.85062026977539,1.56295239925385
+				rotation = -1.383902E-07,-0.8660257,-7.989951E-08,-0.4999994
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: smallHardpoint_70; pos: -1.11667E-05,-1.005232,0.02864045; dir: 1.007058E-06,-0.9995962,0.02841703
+				sym = 81
+				srfN = srfAttach, 78
+				mass = 0.05
+				temp = -199.4196
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 566450015
+				parent = 3
+				position = -0.514838814735413,-8.40116882324219,-1.39284253120422
+				rotation = 6.558967E-08,0.4999995,-1.136048E-07,-0.8660257
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 78
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = -199.2357
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 275901084
+				parent = 80
+				position = -0.632588863372803,-8.85062026977539,-1.56295263767242
+				rotation = 7.989951E-08,0.4999994,-1.383902E-07,-0.8660257
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 79
+				srfN = srfAttach, 80
+				mass = 0.05
+				temp = -199.3816
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 3188215242
+				parent = 3
+				position = -0.619953393936157,-8.44837951660156,1.33215546607971
+				rotation = -6.558949E-08,-0.4999986,-1.136047E-07,-0.8660263
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 84
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = -199.1766
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3081674906
+				parent = 82
+				position = -0.709563851356506,-8.81612014770508,1.51851141452789
+				rotation = -6.150324E-08,-0.4999986,-1.065272E-07,-0.8660263
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: smallHardpoint_72; pos: -5.537659E-06,-1.038621,0.002414123; dir: 1.36479E-06,-0.9999976,0.002231983
+				sym = 85
+				srfN = srfAttach, 82
+				mass = 0.05
+				temp = -199.3499
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 1140390602
+				parent = 3
+				position = 0.619953513145447,-8.44837951660156,-1.332155585289
+				rotation = 1.136047E-07,0.8660263,-6.558948E-08,-0.4999985
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 82
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = -199.1022
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 20496105
+				parent = 84
+				position = 0.709564089775085,-8.81612014770508,-1.51851153373718
+				rotation = 1.065272E-07,0.8660262,-6.150323E-08,-0.4999986
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				cData = tgt: smallHardpoint_73; pos: -3.361217E-06,-1.038582,0.002312165; dir: 1.36479E-06,-0.9999976,0.002231983
+				sym = 83
+				srfN = srfAttach, 84
+				mass = 0.05
+				temp = -199.3118
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 3835067328
+				parent = 2
+				position = -1.08580577373505,-1.47307968139648,-1.08580553531647
+				rotation = -0.2705981,0.6532815,-0.6532815,-0.2705981
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 87
+				sym = 88
+				sym = 89
+				sym = 90
+				sym = 91
+				sym = 92
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -201.6269
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 2646040628
+				parent = 2
+				position = -1.53556084632874,-1.47307968139648,5.72763383388519E-08
+				rotation = -0.5000001,0.4999999,-0.4999999,-0.5000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 88
+				sym = 89
+				sym = 90
+				sym = 91
+				sym = 92
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -201.4176
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 1820668354
+				parent = 2
+				position = -1.08580577373505,-1.47307968139648,1.08580541610718
+				rotation = -0.6532815,0.270598,-0.270598,-0.6532815
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 87
+				sym = 89
+				sym = 90
+				sym = 91
+				sym = 92
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -201.2083
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 1822884374
+				parent = 2
+				position = 2.98023223876953E-07,-1.47307968139648,1.53556144237518
+				rotation = -0.7071068,-6.181724E-08,6.181724E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 87
+				sym = 88
+				sym = 90
+				sym = 91
+				sym = 92
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -200.9985
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 2883730995
+				parent = 2
+				position = 1.08580601215363,-1.47307968139648,1.08580541610718
+				rotation = -0.6532815,-0.2705981,0.2705981,-0.6532815
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 87
+				sym = 88
+				sym = 89
+				sym = 91
+				sym = 92
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -200.7897
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 3155614704
+				parent = 2
+				position = 1.5355612039566,-1.47307968139648,-2.40746885538101E-07
+				rotation = -0.4999999,-0.5000001,0.5000001,-0.4999999
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 87
+				sym = 88
+				sym = 89
+				sym = 90
+				sym = 92
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -200.5804
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 2387827994
+				parent = 2
+				position = 1.08580529689789,-1.47307968139648,-1.08580660820007
+				rotation = -0.2705979,-0.6532816,0.6532816,-0.2705979
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 87
+				sym = 88
+				sym = 89
+				sym = 90
+				sym = 91
+				sym = 93
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -200.3758
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 765127068
+				parent = 2
+				position = -8.94069671630859E-08,-1.47307968139648,-1.53556156158447
+				rotation = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 86
+				sym = 87
+				sym = 88
+				sym = 89
+				sym = 90
+				sym = 91
+				sym = 92
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -200.1681
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 1845753748
+				parent = 2
+				position = -1.08666181564331,-0.976631164550781,-1.08666157722473
+				rotation = -0.2705981,0.6532815,-0.6532815,-0.2705981
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 95
+				sym = 96
+				sym = 97
+				sym = 98
+				sym = 99
+				sym = 100
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -199.9621
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 480461330
+				parent = 2
+				position = -1.53677082061768,-0.976631164550781,5.72763383388519E-08
+				rotation = -0.5000001,0.4999999,-0.4999999,-0.5000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 96
+				sym = 97
+				sym = 98
+				sym = 99
+				sym = 100
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -199.7583
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 1203105937
+				parent = 2
+				position = -1.08666181564331,-0.976631164550781,1.08666145801544
+				rotation = -0.6532815,0.270598,-0.270598,-0.6532815
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 95
+				sym = 97
+				sym = 98
+				sym = 99
+				sym = 100
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -199.5528
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 2400224785
+				parent = 2
+				position = 2.98023223876953E-07,-0.976631164550781,1.53677141666412
+				rotation = -0.7071068,-6.181724E-08,6.181724E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 95
+				sym = 96
+				sym = 98
+				sym = 99
+				sym = 100
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -199.3499
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 2072693842
+				parent = 2
+				position = 1.08666181564331,-0.976631164550781,1.08666145801544
+				rotation = -0.6532815,-0.2705981,0.2705981,-0.6532815
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 95
+				sym = 96
+				sym = 97
+				sym = 99
+				sym = 100
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -199.1469
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 2665523693
+				parent = 2
+				position = 1.53677117824554,-0.976631164550781,-2.40746885538101E-07
+				rotation = -0.4999999,-0.5000001,0.5000001,-0.4999999
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 95
+				sym = 96
+				sym = 97
+				sym = 98
+				sym = 100
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -198.9438
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 3320626252
+				parent = 2
+				position = 1.08666110038757,-0.976631164550781,-1.08666157722473
+				rotation = -0.2705979,-0.6532816,0.6532816,-0.2705979
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 95
+				sym = 96
+				sym = 97
+				sym = 98
+				sym = 99
+				sym = 101
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -198.741
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = rtg
+				uid = 1321455113
+				parent = 2
+				position = -8.94069671630859E-08,-0.976631164550781,-1.53677153587341
+				rotation = -3.090862E-08,0.7071068,-0.7071068,-3.090862E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sidx = -1
+				attm = 1
+				sym = 94
+				sym = 95
+				sym = 96
+				sym = 97
+				sym = 98
+				sym = 99
+				sym = 100
+				srfN = srfAttach, 2
+				attN = None, -1
+				attN = None, -1
+				mass = 0.08
+				temp = -198.538
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 568.939999999773
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 318.94
+				SAS = True, 1114.11033203091
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+	}
+}
