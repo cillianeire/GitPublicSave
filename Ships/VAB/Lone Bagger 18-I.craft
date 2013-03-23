@@ -1,0 +1,4451 @@
+ship = Lone Bagger 18-I
+version = 0.19.1
+type = VAB
+PART
+{
+	part = probeCoreOcto_4289653834
+	partName = CommandPod
+	pos = 0.1855853,40.62583,0.1019655
+	rot = 0,0,0,-1
+	attRot = 0,0,0,-0.9999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = stackPoint1_4289653806
+	link = stationHub_4289653430
+	attN = bottom,stationHub_4289653430
+	EVENTS
+	{
+		MakeReference
+		{
+			active = True
+			guiActive = True
+			guiIcon = Control From Here
+			guiName = Control From Here
+			category = Control From Here
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		RenameVessel
+		{
+			active = True
+			guiActive = True
+			guiIcon = Rename Vessel
+			guiName = Rename Vessel
+			category = Rename Vessel
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = stackPoint1_4289653806
+	partName = Part
+	pos = 0.1580462,40.88074,0.1295045
+	rot = -1.264406E-07,0.7071068,2.107343E-08,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = fuelTankSmall_4289653774
+	srfN = srfAttach,probeCoreOcto_4289653834
+	attN = top,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = fuelTankSmall_4289653774
+	partName = Part
+	pos = 0.1580462,41.48287,0.1295045
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = rtg_4289653742
+	link = rtg_4289653716
+	link = rtg_4289653690
+	link = rtg_4289653664
+	link = rtg_4289653638
+	link = rtg_4289653612
+	link = rtg_4289653586
+	link = rtg_4289653560
+	link = rtg_4289653534
+	link = rtg_4289653508
+	link = rtg_4289653482
+	link = rtg_4289653456
+	attN = bottom,stackPoint1_4289653806
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = rtg_4289653742
+	partName = Part
+	pos = 0.9780381,41.82747,0.6029268
+	rot = -0.6123725,-0.3535535,0.3535535,-0.6123725
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653612
+	sym = rtg_4289653716
+	sym = rtg_4289653690
+	sym = rtg_4289653664
+	sym = rtg_4289653638
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653716
+	partName = Part
+	pos = 0.9780379,41.82747,-0.3439181
+	rot = -0.3535534,-0.6123726,0.6123726,-0.3535534
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653612
+	sym = rtg_4289653742
+	sym = rtg_4289653690
+	sym = rtg_4289653664
+	sym = rtg_4289653638
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653690
+	partName = Part
+	pos = 0.1580459,41.82747,-0.8173409
+	rot = 5.26836E-08,-0.7071069,0.7071069,9.483038E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653612
+	sym = rtg_4289653742
+	sym = rtg_4289653716
+	sym = rtg_4289653664
+	sym = rtg_4289653638
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653664
+	partName = Part
+	pos = -0.6619467,41.82747,-0.3439178
+	rot = 0.3535535,-0.6123725,0.6123725,0.3535535
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653612
+	sym = rtg_4289653742
+	sym = rtg_4289653716
+	sym = rtg_4289653690
+	sym = rtg_4289653638
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653638
+	partName = Part
+	pos = -0.661945,41.82747,0.6029269
+	rot = 0.6123725,-0.3535534,0.3535534,0.6123726
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653612
+	sym = rtg_4289653742
+	sym = rtg_4289653716
+	sym = rtg_4289653690
+	sym = rtg_4289653664
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653612
+	partName = Part
+	pos = 0.1580463,41.82747,1.076348
+	rot = -0.7071069,-5.26836E-08,7.375696E-08,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653742
+	sym = rtg_4289653716
+	sym = rtg_4289653690
+	sym = rtg_4289653664
+	sym = rtg_4289653638
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653586
+	partName = Part
+	pos = 0.6309924,41.50193,0.9486727
+	rot = -0.6830128,-0.1830127,0.1830127,-0.6830128
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653456
+	sym = rtg_4289653560
+	sym = rtg_4289653534
+	sym = rtg_4289653508
+	sym = rtg_4289653482
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653560
+	partName = Part
+	pos = 1.103937,41.50193,0.1295046
+	rot = -0.5000001,-0.5000001,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653456
+	sym = rtg_4289653586
+	sym = rtg_4289653534
+	sym = rtg_4289653508
+	sym = rtg_4289653482
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653534
+	partName = Part
+	pos = 0.6309926,41.50193,-0.6896635
+	rot = -0.1830128,-0.6830128,0.6830128,-0.1830128
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653456
+	sym = rtg_4289653586
+	sym = rtg_4289653560
+	sym = rtg_4289653508
+	sym = rtg_4289653482
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653508
+	partName = Part
+	pos = -0.3149001,41.50193,-0.6896634
+	rot = 0.1830127,-0.6830128,0.6830128,0.1830127
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653456
+	sym = rtg_4289653586
+	sym = rtg_4289653560
+	sym = rtg_4289653534
+	sym = rtg_4289653482
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653482
+	partName = Part
+	pos = -0.787846,41.50193,0.1295042
+	rot = 0.5,-0.5000001,0.5000001,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653456
+	sym = rtg_4289653586
+	sym = rtg_4289653560
+	sym = rtg_4289653534
+	sym = rtg_4289653508
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = rtg_4289653456
+	partName = Part
+	pos = -0.3149002,41.50193,0.9486724
+	rot = -0.6830128,0.1830128,-0.1830128,-0.6830128
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = rtg_4289653586
+	sym = rtg_4289653560
+	sym = rtg_4289653534
+	sym = rtg_4289653508
+	sym = rtg_4289653482
+	srfN = srfAttach,fuelTankSmall_4289653774
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Generator
+				guiName = Activate Generator
+				category = Activate Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Generator
+				guiName = Shutdown Generator
+				category = Shutdown Generator
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = stationHub_4289653430
+	partName = Part
+	pos = 0.1855853,39.5266,0.1019655
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mk1FuselageStructural_4289653394
+	link = Mk1FuselageStructural_4289652016
+	attN = right,Mk1FuselageStructural_4289652016
+	attN = left,Mk1FuselageStructural_4289653394
+	attN = top,probeCoreOcto_4289653834
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653394
+	partName = Strut
+	pos = -1.664068,39.5266,0.1019655
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mk1FuselageStructural_4289653366
+	link = Mk1FuselageStructural_4289653312
+	link = Mk1FuselageStructural_4289653162
+	link = Mk1FuselageStructural_4289653012
+	link = Mk1FuselageStructural_4289652664
+	link = Mk1FuselageStructural_4289652514
+	link = Mk1FuselageStructural_4289652364
+	attN = top,stationHub_4289653430
+	attN = bottom,Mk1FuselageStructural_4289653366
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653366
+	partName = Strut
+	pos = -3.551576,39.5266,0.1019655
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = batteryBank_4289653338
+	attN = top,Mk1FuselageStructural_4289653394
+	attN = bottom,batteryBank_4289653338
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = batteryBank_4289653338
+	partName = Part
+	pos = -4.612432,39.5266,0.1019655
+	rot = 0,0,0.7071068,0.7071068
+	attRot = -0.7071067,-0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = bottom,Mk1FuselageStructural_4289653366
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653312
+	partName = Strut
+	pos = -1.665365,38.45308,-0.517831
+	rot = -0.6123725,-0.6123725,0.3535534,-0.3535534
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289653284
+	link = strutConnector_4289653218
+	sym = Mk1FuselageStructural_4289652364
+	sym = Mk1FuselageStructural_4289653162
+	sym = Mk1FuselageStructural_4289653012
+	sym = Mk1FuselageStructural_4289652664
+	sym = Mk1FuselageStructural_4289652514
+	srfN = srfAttach,Mk1FuselageStructural_4289653394
+	attN = bottom,Mk1FuselageStructural_4289653284
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653284
+	partName = Strut
+	pos = -3.552865,38.45308,-0.5178313
+	rot = -0.6123725,-0.6123725,0.3535534,-0.3535534
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289653256
+	sym = Mk1FuselageStructural_4289652336
+	sym = Mk1FuselageStructural_4289653134
+	sym = Mk1FuselageStructural_4289652984
+	sym = Mk1FuselageStructural_4289652636
+	sym = Mk1FuselageStructural_4289652486
+	attN = top,Mk1FuselageStructural_4289653312
+	attN = bottom,dockingPort2_4289653256
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289653256
+	partName = Part
+	pos = -4.502872,38.45308,-0.5178313
+	rot = 0.1830128,-0.1830128,0.6830127,0.6830127
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289652956
+	sym = dockingPort2_4289652308
+	sym = dockingPort2_4289653106
+	sym = dockingPort2_4289652608
+	sym = dockingPort2_4289652458
+	attN = bottom,Mk1FuselageStructural_4289653284
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289653218
+	partName = StrutConnector
+	pos = -0.7557271,38.45151,-0.5150942
+	rot = 0,0.8660255,-0.5,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mk1FuselageStructural_68; pos: -1.882887,0.05241827,0.02061257; dir: -0.9995528,0.02782731,0.01094306
+	sym = strutConnector_4289652128
+	sym = strutConnector_4289653068
+	sym = strutConnector_4289652776
+	sym = strutConnector_4289652570
+	sym = strutConnector_4289652420
+	srfN = srfAttach,Mk1FuselageStructural_4289653312
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653162
+	partName = Strut
+	pos = -1.665365,38.45308,0.7217622
+	rot = -0.3535534,-0.3535534,0.6123725,-0.6123725
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289653134
+	link = strutConnector_4289653068
+	sym = Mk1FuselageStructural_4289652364
+	sym = Mk1FuselageStructural_4289653312
+	sym = Mk1FuselageStructural_4289653012
+	sym = Mk1FuselageStructural_4289652664
+	sym = Mk1FuselageStructural_4289652514
+	srfN = srfAttach,Mk1FuselageStructural_4289653394
+	attN = bottom,Mk1FuselageStructural_4289653134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653134
+	partName = Strut
+	pos = -3.552865,38.45308,0.7217616
+	rot = -0.3535534,-0.3535534,0.6123725,-0.6123725
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289653106
+	sym = Mk1FuselageStructural_4289652336
+	sym = Mk1FuselageStructural_4289653284
+	sym = Mk1FuselageStructural_4289652984
+	sym = Mk1FuselageStructural_4289652636
+	sym = Mk1FuselageStructural_4289652486
+	attN = top,Mk1FuselageStructural_4289653162
+	attN = bottom,dockingPort2_4289653106
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289653106
+	partName = Part
+	pos = -4.502872,38.45308,0.7217616
+	rot = -0.1830127,0.1830127,0.6830127,0.6830127
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289652956
+	sym = dockingPort2_4289652308
+	sym = dockingPort2_4289653256
+	sym = dockingPort2_4289652608
+	sym = dockingPort2_4289652458
+	attN = bottom,Mk1FuselageStructural_4289653134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289653068
+	partName = StrutConnector
+	pos = -0.7557271,38.45466,0.7244987
+	rot = 0,0.5000001,-0.8660255,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mk1FuselageStructural_64; pos: -1.882887,0.05241777,0.02061641; dir: -0.9995528,0.02782731,0.01094306
+	sym = strutConnector_4289652128
+	sym = strutConnector_4289653218
+	sym = strutConnector_4289652776
+	sym = strutConnector_4289652570
+	sym = strutConnector_4289652420
+	srfN = srfAttach,Mk1FuselageStructural_4289653162
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289653012
+	partName = Strut
+	pos = -1.665365,39.5266,1.341557
+	rot = 6.181724E-08,6.181724E-08,0.7071068,-0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289652984
+	link = strutConnector_4289652776
+	link = strutConnector_4289652720
+	sym = Mk1FuselageStructural_4289652364
+	sym = Mk1FuselageStructural_4289653312
+	sym = Mk1FuselageStructural_4289653162
+	sym = Mk1FuselageStructural_4289652664
+	sym = Mk1FuselageStructural_4289652514
+	srfN = srfAttach,Mk1FuselageStructural_4289653394
+	attN = bottom,Mk1FuselageStructural_4289652984
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652984
+	partName = Strut
+	pos = -3.552871,39.5266,1.341557
+	rot = 6.181724E-08,6.181724E-08,0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289652956
+	link = roverWheel3_4289652918
+	sym = Mk1FuselageStructural_4289652336
+	sym = Mk1FuselageStructural_4289653284
+	sym = Mk1FuselageStructural_4289653134
+	sym = Mk1FuselageStructural_4289652636
+	sym = Mk1FuselageStructural_4289652486
+	attN = top,Mk1FuselageStructural_4289653012
+	attN = bottom,dockingPort2_4289652956
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289652956
+	partName = Part
+	pos = -4.502872,39.5266,1.341557
+	rot = -0.5000001,0.5000001,0.5000001,0.5000001
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289652308
+	sym = dockingPort2_4289653256
+	sym = dockingPort2_4289653106
+	sym = dockingPort2_4289652608
+	sym = dockingPort2_4289652458
+	attN = bottom,Mk1FuselageStructural_4289652984
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = roverWheel3_4289652918
+	partName = Part
+	pos = -3.552871,37.87521,3.319491
+	rot = 2.107343E-08,0.7071068,2.107343E-08,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mk1FuselageStructural_4289652984
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheel
+		isEnabled = True
+		brakesEngaged = False
+		steeringLocked = False
+		isDamaged = False
+		invertSteering = False
+		motorEnabled = True
+		EVENTS
+		{
+			UnLockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unlock Steering
+				guiName = Unlock Steering
+				category = Unlock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Lock Steering
+				guiName = Lock Steering
+				category = Lock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EnableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disable Motor
+				guiName = Disable Motor
+				category = Disable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			InvertSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Invert Steering
+				guiName = Invert Steering
+				category = Invert Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RepairWheel
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repair Wheel
+				guiName = Repair Wheel
+				category = Repair Wheel
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			InvertSteeringAction
+			{
+				actionGroup = None
+			}
+			LockSteeringAction
+			{
+				actionGroup = None
+			}
+			UnlockSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleMotorAction
+			{
+				actionGroup = None
+			}
+			BrakesAction
+			{
+				actionGroup = Brakes
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleLookAtConstraint
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289652776
+	partName = StrutConnector
+	pos = -0.7557235,39.52976,1.341557
+	rot = 0,-4.37117E-08,-1,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mk1FuselageStructural_58; pos: -1.882884,0.05241732,0.02061343; dir: -0.9995528,0.02782731,0.01094306
+	sym = strutConnector_4289652128
+	sym = strutConnector_4289653218
+	sym = strutConnector_4289653068
+	sym = strutConnector_4289652570
+	sym = strutConnector_4289652420
+	srfN = srfAttach,Mk1FuselageStructural_4289653012
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4289652720
+	partName = StrutConnector
+	pos = -1.665365,39.5912,1.94226
+	rot = 2.107343E-08,0.7071068,2.107343E-08,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: roverWheel3_61; pos: -2.688545,0.2611779,5.399404; dir: -0.4453162,0.04325974,0.8943278
+	srfN = srfAttach,Mk1FuselageStructural_4289653012
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652664
+	partName = Strut
+	pos = -1.665365,40.60012,0.7217619
+	rot = 0.3535535,0.3535535,0.6123725,-0.6123725
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289652636
+	link = strutConnector_4289652570
+	sym = Mk1FuselageStructural_4289652364
+	sym = Mk1FuselageStructural_4289653312
+	sym = Mk1FuselageStructural_4289653162
+	sym = Mk1FuselageStructural_4289653012
+	sym = Mk1FuselageStructural_4289652514
+	srfN = srfAttach,Mk1FuselageStructural_4289653394
+	attN = bottom,Mk1FuselageStructural_4289652636
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652636
+	partName = Strut
+	pos = -3.552895,40.60012,0.7217622
+	rot = 0.3535534,0.3535534,0.6123725,-0.6123725
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289652608
+	sym = Mk1FuselageStructural_4289652336
+	sym = Mk1FuselageStructural_4289653284
+	sym = Mk1FuselageStructural_4289653134
+	sym = Mk1FuselageStructural_4289652984
+	sym = Mk1FuselageStructural_4289652486
+	attN = top,Mk1FuselageStructural_4289652664
+	attN = bottom,dockingPort2_4289652608
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289652608
+	partName = Part
+	pos = -4.502882,40.60012,0.7217622
+	rot = -0.6830128,0.6830128,0.1830126,0.1830126
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289652956
+	sym = dockingPort2_4289652308
+	sym = dockingPort2_4289653256
+	sym = dockingPort2_4289653106
+	sym = dockingPort2_4289652458
+	attN = bottom,Mk1FuselageStructural_4289652636
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289652570
+	partName = StrutConnector
+	pos = -0.7557213,40.6017,0.7190253
+	rot = 0,-0.5000002,-0.8660255,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mk1FuselageStructural_54; pos: -1.882883,0.05241644,0.02061204; dir: -0.9995528,0.02782731,0.01094306
+	sym = strutConnector_4289652128
+	sym = strutConnector_4289653218
+	sym = strutConnector_4289653068
+	sym = strutConnector_4289652776
+	sym = strutConnector_4289652420
+	srfN = srfAttach,Mk1FuselageStructural_4289652664
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652514
+	partName = Strut
+	pos = -1.665365,40.60012,-0.517831
+	rot = 0.6123725,0.6123725,0.3535534,-0.3535534
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289652486
+	link = strutConnector_4289652420
+	sym = Mk1FuselageStructural_4289652364
+	sym = Mk1FuselageStructural_4289653312
+	sym = Mk1FuselageStructural_4289653162
+	sym = Mk1FuselageStructural_4289653012
+	sym = Mk1FuselageStructural_4289652664
+	srfN = srfAttach,Mk1FuselageStructural_4289653394
+	attN = bottom,Mk1FuselageStructural_4289652486
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652486
+	partName = Strut
+	pos = -3.552865,40.60012,-0.5178307
+	rot = 0.6123725,0.6123725,0.3535534,-0.3535534
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289652458
+	sym = Mk1FuselageStructural_4289652336
+	sym = Mk1FuselageStructural_4289653284
+	sym = Mk1FuselageStructural_4289653134
+	sym = Mk1FuselageStructural_4289652984
+	sym = Mk1FuselageStructural_4289652636
+	attN = top,Mk1FuselageStructural_4289652514
+	attN = bottom,dockingPort2_4289652458
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289652458
+	partName = Part
+	pos = -4.502872,40.60012,-0.5178307
+	rot = -0.6830127,0.6830127,-0.1830127,-0.1830127
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289652956
+	sym = dockingPort2_4289652308
+	sym = dockingPort2_4289653256
+	sym = dockingPort2_4289653106
+	sym = dockingPort2_4289652608
+	attN = bottom,Mk1FuselageStructural_4289652486
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289652420
+	partName = StrutConnector
+	pos = -0.7557271,40.59854,-0.5205677
+	rot = 0,-0.8660255,-0.5000001,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mk1FuselageStructural_50; pos: -1.882888,0.05241889,0.02061191; dir: -0.9995528,0.02782731,0.01094306
+	sym = strutConnector_4289652128
+	sym = strutConnector_4289653218
+	sym = strutConnector_4289653068
+	sym = strutConnector_4289652776
+	sym = strutConnector_4289652570
+	srfN = srfAttach,Mk1FuselageStructural_4289652514
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652364
+	partName = Strut
+	pos = -1.665365,39.5266,-1.137624
+	rot = -0.7071068,-0.7071068,3.090862E-08,-3.090862E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289652336
+	link = strutConnector_4289652128
+	link = strutConnector_4289652072
+	sym = Mk1FuselageStructural_4289653312
+	sym = Mk1FuselageStructural_4289653162
+	sym = Mk1FuselageStructural_4289653012
+	sym = Mk1FuselageStructural_4289652664
+	sym = Mk1FuselageStructural_4289652514
+	srfN = srfAttach,Mk1FuselageStructural_4289653394
+	attN = bottom,Mk1FuselageStructural_4289652336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652336
+	partName = Strut
+	pos = -3.552871,39.5266,-1.137624
+	rot = -0.7071068,-0.7071068,3.090862E-08,-3.090862E-08
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289652308
+	link = roverWheel3_4289652270
+	sym = Mk1FuselageStructural_4289653284
+	sym = Mk1FuselageStructural_4289653134
+	sym = Mk1FuselageStructural_4289652984
+	sym = Mk1FuselageStructural_4289652636
+	sym = Mk1FuselageStructural_4289652486
+	attN = top,Mk1FuselageStructural_4289652364
+	attN = bottom,dockingPort2_4289652308
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289652308
+	partName = Part
+	pos = -4.502872,39.5266,-1.137624
+	rot = 0.5000001,-0.5000001,0.5000001,0.5000001
+	attRot = -0.4999999,0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289652956
+	sym = dockingPort2_4289653256
+	sym = dockingPort2_4289653106
+	sym = dockingPort2_4289652608
+	sym = dockingPort2_4289652458
+	attN = bottom,Mk1FuselageStructural_4289652336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = roverWheel3_4289652270
+	partName = Part
+	pos = -3.552867,37.94617,-3.120282
+	rot = 2.107343E-08,0.7071068,6.322028E-08,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mk1FuselageStructural_4289652336
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheel
+		isEnabled = True
+		brakesEngaged = False
+		steeringLocked = False
+		isDamaged = False
+		invertSteering = False
+		motorEnabled = True
+		EVENTS
+		{
+			UnLockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unlock Steering
+				guiName = Unlock Steering
+				category = Unlock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Lock Steering
+				guiName = Lock Steering
+				category = Lock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EnableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disable Motor
+				guiName = Disable Motor
+				category = Disable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			InvertSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Invert Steering
+				guiName = Invert Steering
+				category = Invert Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RepairWheel
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repair Wheel
+				guiName = Repair Wheel
+				category = Repair Wheel
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			InvertSteeringAction
+			{
+				actionGroup = None
+			}
+			LockSteeringAction
+			{
+				actionGroup = None
+			}
+			UnlockSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleMotorAction
+			{
+				actionGroup = None
+			}
+			BrakesAction
+			{
+				actionGroup = Brakes
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleLookAtConstraint
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289652128
+	partName = StrutConnector
+	pos = -0.7557235,39.52344,-1.137624
+	rot = 0,1,-2.1006E-15,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: Mk1FuselageStructural_72; pos: -1.882884,0.05241777,0.02061439; dir: -0.9995528,0.02782731,0.01094306
+	sym = strutConnector_4289653218
+	sym = strutConnector_4289653068
+	sym = strutConnector_4289652776
+	sym = strutConnector_4289652570
+	sym = strutConnector_4289652420
+	srfN = srfAttach,Mk1FuselageStructural_4289652364
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4289652072
+	partName = StrutConnector
+	pos = -1.827214,39.49943,-1.741661
+	rot = 8.42937E-08,0.6087615,-4.214685E-08,-0.7933534
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: roverWheel3_75; pos: -1.147137,0.4666033,-6.064806; dir: -0.1853226,0.07538095,-0.9797822
+	srfN = srfAttach,Mk1FuselageStructural_4289652364
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289652016
+	partName = Strut
+	pos = 2.035239,39.5266,0.1019655
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = Mk1FuselageStructural_4289651988
+	link = Mk1FuselageStructural_4289651934
+	link = Mk1FuselageStructural_4289651784
+	link = Mk1FuselageStructural_4289651634
+	link = Mk1FuselageStructural_4289651286
+	link = Mk1FuselageStructural_4289651136
+	link = Mk1FuselageStructural_4289650986
+	attN = top,stationHub_4289653430
+	attN = bottom,Mk1FuselageStructural_4289651988
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651988
+	partName = Strut
+	pos = 3.922745,39.5266,0.1019655
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = batteryBank_4289651960
+	attN = top,Mk1FuselageStructural_4289652016
+	attN = bottom,batteryBank_4289651960
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = batteryBank_4289651960
+	partName = Part
+	pos = 4.983603,39.5266,0.1019655
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0.7071067,-0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = bottom,Mk1FuselageStructural_4289651988
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651934
+	partName = Strut
+	pos = 2.036535,40.60012,-0.517831
+	rot = -0.6123725,0.6123725,0.3535534,0.3535534
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289651906
+	link = strutConnector_4289651840
+	sym = Mk1FuselageStructural_4289650986
+	sym = Mk1FuselageStructural_4289651784
+	sym = Mk1FuselageStructural_4289651634
+	sym = Mk1FuselageStructural_4289651286
+	sym = Mk1FuselageStructural_4289651136
+	srfN = srfAttach,Mk1FuselageStructural_4289652016
+	attN = bottom,Mk1FuselageStructural_4289651906
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651906
+	partName = Strut
+	pos = 3.924036,40.60012,-0.5178313
+	rot = -0.6123725,0.6123725,0.3535534,0.3535534
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289651878
+	sym = Mk1FuselageStructural_4289650958
+	sym = Mk1FuselageStructural_4289651756
+	sym = Mk1FuselageStructural_4289651606
+	sym = Mk1FuselageStructural_4289651258
+	sym = Mk1FuselageStructural_4289651108
+	attN = top,Mk1FuselageStructural_4289651934
+	attN = bottom,dockingPort2_4289651878
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289651878
+	partName = Part
+	pos = 4.874043,40.60012,-0.5178313
+	rot = 0.6123725,0.6123725,-0.3535534,0.3535534
+	attRot = 0.7071067,0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289651728
+	sym = dockingPort2_4289650930
+	sym = dockingPort2_4289651578
+	sym = dockingPort2_4289651230
+	sym = dockingPort2_4289651080
+	attN = bottom,Mk1FuselageStructural_4289651906
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289651840
+	partName = StrutConnector
+	pos = 1.123359,40.50372,-0.517831
+	rot = 5.90407E-07,-6.114804E-07,-0.7071069,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: strutConnector_40; pos: 0.1128201,1.825187,-0.01974319; dir: 0.06169295,0.9980367,-0.01079669
+	sym = strutConnector_4289650750
+	sym = strutConnector_4289651690
+	sym = strutConnector_4289651398
+	sym = strutConnector_4289651192
+	sym = strutConnector_4289651042
+	srfN = srfAttach,Mk1FuselageStructural_4289651934
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651784
+	partName = Strut
+	pos = 2.036535,40.60012,0.7217622
+	rot = -0.3535534,0.3535534,0.6123725,0.6123725
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289651756
+	link = strutConnector_4289651690
+	sym = Mk1FuselageStructural_4289650986
+	sym = Mk1FuselageStructural_4289651934
+	sym = Mk1FuselageStructural_4289651634
+	sym = Mk1FuselageStructural_4289651286
+	sym = Mk1FuselageStructural_4289651136
+	srfN = srfAttach,Mk1FuselageStructural_4289652016
+	attN = bottom,Mk1FuselageStructural_4289651756
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651756
+	partName = Strut
+	pos = 3.924035,40.60012,0.7217616
+	rot = -0.3535534,0.3535534,0.6123725,0.6123725
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289651728
+	sym = Mk1FuselageStructural_4289650958
+	sym = Mk1FuselageStructural_4289651906
+	sym = Mk1FuselageStructural_4289651606
+	sym = Mk1FuselageStructural_4289651258
+	sym = Mk1FuselageStructural_4289651108
+	attN = top,Mk1FuselageStructural_4289651784
+	attN = bottom,dockingPort2_4289651728
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289651728
+	partName = Part
+	pos = 4.874043,40.60012,0.7217616
+	rot = 0.7071068,0.7071068,0,0
+	attRot = 0.7071067,0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289650930
+	sym = dockingPort2_4289651878
+	sym = dockingPort2_4289651578
+	sym = dockingPort2_4289651230
+	sym = dockingPort2_4289651080
+	attN = bottom,Mk1FuselageStructural_4289651756
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289651690
+	partName = StrutConnector
+	pos = 1.123359,40.55192,0.6382808
+	rot = -0.353553,0.353553,-0.6123727,-0.6123727
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: strutConnector_36; pos: 0.1128216,1.825181,-0.01974369; dir: 0.06169295,0.9980367,-0.01079669
+	sym = strutConnector_4289651840
+	sym = strutConnector_4289650750
+	sym = strutConnector_4289651398
+	sym = strutConnector_4289651192
+	sym = strutConnector_4289651042
+	srfN = srfAttach,Mk1FuselageStructural_4289651784
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651634
+	partName = Strut
+	pos = 2.036535,39.5266,1.341557
+	rot = 6.181724E-08,-6.181724E-08,0.7071068,0.7071068
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289651606
+	link = strutConnector_4289651398
+	link = strutConnector_4289651342
+	sym = Mk1FuselageStructural_4289650986
+	sym = Mk1FuselageStructural_4289651934
+	sym = Mk1FuselageStructural_4289651784
+	sym = Mk1FuselageStructural_4289651286
+	sym = Mk1FuselageStructural_4289651136
+	srfN = srfAttach,Mk1FuselageStructural_4289652016
+	attN = bottom,Mk1FuselageStructural_4289651606
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651606
+	partName = Strut
+	pos = 3.924042,39.5266,1.341557
+	rot = 6.181724E-08,-6.181724E-08,0.7071068,0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289651578
+	link = roverWheel3_4289651540
+	sym = Mk1FuselageStructural_4289650958
+	sym = Mk1FuselageStructural_4289651906
+	sym = Mk1FuselageStructural_4289651756
+	sym = Mk1FuselageStructural_4289651258
+	sym = Mk1FuselageStructural_4289651108
+	attN = top,Mk1FuselageStructural_4289651634
+	attN = bottom,dockingPort2_4289651578
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289651578
+	partName = Part
+	pos = 4.874032,39.5266,1.341557
+	rot = 0.6123724,0.6123724,0.3535534,-0.3535534
+	attRot = 0.7071067,0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289651728
+	sym = dockingPort2_4289650930
+	sym = dockingPort2_4289651878
+	sym = dockingPort2_4289651230
+	sym = dockingPort2_4289651080
+	attN = bottom,Mk1FuselageStructural_4289651606
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = roverWheel3_4289651540
+	partName = Part
+	pos = 3.924037,37.87752,3.31975
+	rot = -2.107343E-08,0.7071068,-2.107343E-08,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mk1FuselageStructural_4289651606
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheel
+		isEnabled = True
+		brakesEngaged = False
+		steeringLocked = False
+		isDamaged = False
+		invertSteering = False
+		motorEnabled = True
+		EVENTS
+		{
+			UnLockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unlock Steering
+				guiName = Unlock Steering
+				category = Unlock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Lock Steering
+				guiName = Lock Steering
+				category = Lock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EnableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disable Motor
+				guiName = Disable Motor
+				category = Disable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			InvertSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Invert Steering
+				guiName = Invert Steering
+				category = Invert Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RepairWheel
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repair Wheel
+				guiName = Repair Wheel
+				category = Repair Wheel
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			InvertSteeringAction
+			{
+				actionGroup = None
+			}
+			LockSteeringAction
+			{
+				actionGroup = None
+			}
+			UnlockSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleMotorAction
+			{
+				actionGroup = None
+			}
+			BrakesAction
+			{
+				actionGroup = Brakes
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleLookAtConstraint
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289651398
+	partName = StrutConnector
+	pos = 1.123357,39.5748,1.258074
+	rot = -0.6123722,0.6123722,-0.3535539,-0.3535539
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: strutConnector_31; pos: 0.1128216,1.825181,-0.01974582; dir: 0.06169295,0.9980367,-0.01079669
+	sym = strutConnector_4289651840
+	sym = strutConnector_4289650750
+	sym = strutConnector_4289651690
+	sym = strutConnector_4289651192
+	sym = strutConnector_4289651042
+	srfN = srfAttach,Mk1FuselageStructural_4289651634
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4289651342
+	partName = StrutConnector
+	pos = 2.036535,39.52485,1.94262
+	rot = -2.107343E-08,0.7071068,-2.107343E-08,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: roverWheel3_30; pos: -2.525654,0.3187833,-5.399406; dir: -0.4230976,0.05340252,-0.904509
+	srfN = srfAttach,Mk1FuselageStructural_4289651634
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651286
+	partName = Strut
+	pos = 2.036535,38.45308,0.7217619
+	rot = 0.3535535,-0.3535535,0.6123725,0.6123725
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289651258
+	link = strutConnector_4289651192
+	sym = Mk1FuselageStructural_4289650986
+	sym = Mk1FuselageStructural_4289651934
+	sym = Mk1FuselageStructural_4289651784
+	sym = Mk1FuselageStructural_4289651634
+	sym = Mk1FuselageStructural_4289651136
+	srfN = srfAttach,Mk1FuselageStructural_4289652016
+	attN = bottom,Mk1FuselageStructural_4289651258
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651258
+	partName = Strut
+	pos = 3.924065,38.45308,0.7217622
+	rot = 0.3535534,-0.3535534,0.6123725,0.6123725
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289651230
+	sym = Mk1FuselageStructural_4289650958
+	sym = Mk1FuselageStructural_4289651906
+	sym = Mk1FuselageStructural_4289651756
+	sym = Mk1FuselageStructural_4289651606
+	sym = Mk1FuselageStructural_4289651108
+	attN = top,Mk1FuselageStructural_4289651286
+	attN = bottom,dockingPort2_4289651230
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289651230
+	partName = Part
+	pos = 4.874051,38.45309,0.7217622
+	rot = 0.3535534,0.3535534,0.6123725,-0.6123725
+	attRot = 0.7071067,0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289651728
+	sym = dockingPort2_4289650930
+	sym = dockingPort2_4289651878
+	sym = dockingPort2_4289651578
+	sym = dockingPort2_4289651080
+	attN = bottom,Mk1FuselageStructural_4289651258
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289651192
+	partName = StrutConnector
+	pos = 1.123355,38.54948,0.7217619
+	rot = -0.7071068,0.7071069,-5.230531E-07,-5.019797E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: strutConnector_26; pos: 0.1128272,1.825183,-0.01974709; dir: 0.06169295,0.9980367,-0.01079669
+	sym = strutConnector_4289651840
+	sym = strutConnector_4289650750
+	sym = strutConnector_4289651690
+	sym = strutConnector_4289651398
+	sym = strutConnector_4289651042
+	srfN = srfAttach,Mk1FuselageStructural_4289651286
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651136
+	partName = Strut
+	pos = 2.036535,38.45308,-0.517831
+	rot = 0.6123725,-0.6123725,0.3535534,0.3535534
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289651108
+	link = strutConnector_4289651042
+	sym = Mk1FuselageStructural_4289650986
+	sym = Mk1FuselageStructural_4289651934
+	sym = Mk1FuselageStructural_4289651784
+	sym = Mk1FuselageStructural_4289651634
+	sym = Mk1FuselageStructural_4289651286
+	srfN = srfAttach,Mk1FuselageStructural_4289652016
+	attN = bottom,Mk1FuselageStructural_4289651108
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289651108
+	partName = Strut
+	pos = 3.924036,38.45308,-0.5178307
+	rot = 0.6123725,-0.6123725,0.3535534,0.3535534
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289651080
+	sym = Mk1FuselageStructural_4289650958
+	sym = Mk1FuselageStructural_4289651906
+	sym = Mk1FuselageStructural_4289651756
+	sym = Mk1FuselageStructural_4289651606
+	sym = Mk1FuselageStructural_4289651258
+	attN = top,Mk1FuselageStructural_4289651136
+	attN = bottom,dockingPort2_4289651080
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289651080
+	partName = Part
+	pos = 4.874043,38.45308,-0.5178307
+	rot = 0,0,0.7071068,-0.7071068
+	attRot = 0.7071067,0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289651728
+	sym = dockingPort2_4289650930
+	sym = dockingPort2_4289651878
+	sym = dockingPort2_4289651578
+	sym = dockingPort2_4289651230
+	attN = bottom,Mk1FuselageStructural_4289651108
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289651042
+	partName = StrutConnector
+	pos = 1.123359,38.50128,-0.4343491
+	rot = -0.6123727,0.6123727,0.353553,0.353553
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: strutConnector_22; pos: 0.1128247,1.825187,-0.01974576; dir: 0.06169295,0.9980367,-0.01079669
+	sym = strutConnector_4289651840
+	sym = strutConnector_4289650750
+	sym = strutConnector_4289651690
+	sym = strutConnector_4289651398
+	sym = strutConnector_4289651192
+	srfN = srfAttach,Mk1FuselageStructural_4289651136
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289650986
+	partName = Strut
+	pos = 2.036535,39.5266,-1.137624
+	rot = -0.7071068,0.7071068,3.090862E-08,3.090862E-08
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = Mk1FuselageStructural_4289650958
+	link = strutConnector_4289650750
+	link = strutConnector_4289650694
+	sym = Mk1FuselageStructural_4289651934
+	sym = Mk1FuselageStructural_4289651784
+	sym = Mk1FuselageStructural_4289651634
+	sym = Mk1FuselageStructural_4289651286
+	sym = Mk1FuselageStructural_4289651136
+	srfN = srfAttach,Mk1FuselageStructural_4289652016
+	attN = bottom,Mk1FuselageStructural_4289650958
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4289650958
+	partName = Strut
+	pos = 3.924042,39.5266,-1.137624
+	rot = -0.7071068,0.7071068,3.090862E-08,3.090862E-08
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = dockingPort2_4289650930
+	link = roverWheel3_4289650892
+	sym = Mk1FuselageStructural_4289651906
+	sym = Mk1FuselageStructural_4289651756
+	sym = Mk1FuselageStructural_4289651606
+	sym = Mk1FuselageStructural_4289651258
+	sym = Mk1FuselageStructural_4289651108
+	attN = top,Mk1FuselageStructural_4289650986
+	attN = bottom,dockingPort2_4289650930
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = dockingPort2_4289650930
+	partName = Part
+	pos = 4.874032,39.5266,-1.137624
+	rot = 0.3535534,0.3535534,-0.6123725,0.6123725
+	attRot = 0.7071067,0.7071067,0,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	sym = dockingPort2_4289651728
+	sym = dockingPort2_4289651878
+	sym = dockingPort2_4289651578
+	sym = dockingPort2_4289651230
+	sym = dockingPort2_4289651080
+	attN = bottom,Mk1FuselageStructural_4289650958
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = roverWheel3_4289650892
+	partName = Part
+	pos = 3.924035,37.99075,-3.115705
+	rot = -2.107343E-08,0.7071068,-6.322028E-08,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,Mk1FuselageStructural_4289650958
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleWheel
+		isEnabled = True
+		brakesEngaged = False
+		steeringLocked = False
+		isDamaged = False
+		invertSteering = False
+		motorEnabled = True
+		EVENTS
+		{
+			UnLockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Unlock Steering
+				guiName = Unlock Steering
+				category = Unlock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			LockSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Lock Steering
+				guiName = Lock Steering
+				category = Lock Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EnableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableMotor
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disable Motor
+				guiName = Disable Motor
+				category = Disable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			InvertSteering
+			{
+				active = True
+				guiActive = False
+				guiIcon = Invert Steering
+				guiName = Invert Steering
+				category = Invert Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RepairWheel
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repair Wheel
+				guiName = Repair Wheel
+				category = Repair Wheel
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			InvertSteeringAction
+			{
+				actionGroup = None
+			}
+			LockSteeringAction
+			{
+				actionGroup = None
+			}
+			UnlockSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleSteeringAction
+			{
+				actionGroup = None
+			}
+			ToggleMotorAction
+			{
+				actionGroup = None
+			}
+			BrakesAction
+			{
+				actionGroup = Brakes
+			}
+		}
+	}
+	MODULE
+	{
+		name = FXModuleLookAtConstraint
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4289650750
+	partName = StrutConnector
+	pos = 1.123357,39.4784,-1.054142
+	rot = 0.3535539,-0.3535539,-0.6123722,-0.6123722
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: strutConnector_45; pos: 0.1128217,1.825181,-0.01974541; dir: 0.06169295,0.9980367,-0.01079669
+	sym = strutConnector_4289651840
+	sym = strutConnector_4289651690
+	sym = strutConnector_4289651398
+	sym = strutConnector_4289651192
+	sym = strutConnector_4289651042
+	srfN = srfAttach,Mk1FuselageStructural_4289650986
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4289650694
+	partName = StrutConnector
+	pos = 2.199919,39.50457,-1.747378
+	rot = 2.95028E-07,0.7933534,-1.053671E-07,-0.6087614
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: roverWheel3_44; pos: -1.225997,0.4617621,6.087526; dir: -0.1968873,0.07415567,0.9776177
+	srfN = srfAttach,Mk1FuselageStructural_4289650986
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
