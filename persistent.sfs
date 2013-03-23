@@ -117,11 +117,8 @@ GAME
 			ref = 161220409
 			cPch = 
 			cHdg = 
-<<<<<<< HEAD
 			cMod = 1
-=======
 			cMod = 0
->>>>>>> 701d4f85ca67e08b374d91f8a6105c6b0483e492
 			ORBIT
 			{
 				SMA = 886313.691474679
