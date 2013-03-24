@@ -58,8 +58,6 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.19.1
-		UT = 1767.23832763636
-		activeVessel = 0
 		UT = 284521.099443378
 		activeVessel = -1
 		CREW
@@ -117,7 +115,6 @@ GAME
 			ref = 161220409
 			cPch = 
 			cHdg = 
-			cMod = 1
 			cMod = 0
 			ORBIT
 			{
