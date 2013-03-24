@@ -58,8 +58,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.19.1
-		UT = 19359314.3308452
-		activeVessel = 16
+		UT = 19359461.710842
+		activeVessel = 0
 		CREW
 		{
 			name = Jebediah Kerman
@@ -6968,10 +6968,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 133.997239360197
-				LAN = 153.773324057951
+				LPE = 165.024517675098
+				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 284626.399443477
+				EPH = 19359442.7108424
 				REF = 3
 				OBJ = 0
 			}
@@ -15413,13 +15413,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 299996.033220443
 				ECC = 1
 				INC = NaN
-				LPE = 127.098839284697
-				LAN = 153.773324057951
-				MNA = 0
-				EPH = 284626.399443477
+				LPE = 127.09883928513
+				LAN = 0
+				MNA = 3.14159265358979
+				EPH = 19359442.7108424
 				REF = 1
 				OBJ = 1
 			}
@@ -15616,13 +15616,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 299996.025541918
+				SMA = 299996.025538919
 				ECC = 1
 				INC = NaN
-				LPE = 127.098829169739
-				LAN = 153.773324057951
+				LPE = 127.098829170172
+				LAN = 0
 				MNA = 3.14159265358979
-				EPH = 284626.399443477
+				EPH = 19359442.7108424
 				REF = 1
 				OBJ = 1
 			}
@@ -15822,10 +15822,10 @@ GAME
 				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 127.032574843976
-				LAN = 153.773324057951
+				LPE = 127.032574844456
+				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 284626.399443477
+				EPH = 19359442.7108424
 				REF = 1
 				OBJ = 1
 			}
@@ -16025,10 +16025,10 @@ GAME
 				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 127.031962151533
-				LAN = 153.773324057951
+				LPE = 127.031962152013
+				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 284626.399443477
+				EPH = 19359442.7108424
 				REF = 1
 				OBJ = 1
 			}
@@ -24920,1308 +24920,6 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 575bb47c867a4d87805b403fc4abb45b
-			name = Bagger 18-KI "Chimera" Probe
-			type = Probe
-			sit = LANDED
-			landed = True
-			landedAt = KSC
-			splashed = False
-			met = 594.147832569492
-			lct = 284061.731610935
-			root = 0
-			lat = -0.164781783968131
-			lon = -74.5301150359315
-			alt = 66.0539321132237
-			hgt = 1.408661
-			nrm = -0.1670435,-0.9299992,0.3274105
-			rot = -0.7790286,-0.01602699,-0.273292,-0.5640647
-			CoM = -2.843888,0.144791,0.1108766
-			stg = 0
-			prst = False
-			eva = False
-			ref = 4268886785
-			cPch = 0
-			cHdg = 0
-			cMod = 0
-			ORBIT
-			{
-				SMA = 300811.861537523
-				ECC = 0.994823036229577
-				INC = 0.16488641002785
-				LPE = 90.0000000000001
-				LAN = 169.734293768484
-				MNA = 3.14159265358979
-				EPH = 284655.879443505
-				REF = 1
-				OBJ = 1
-			}
-			PART
-			{
-				name = stationHub
-				uid = 2220206693
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = None, -1
-				attN = left, 1
-				attN = None, -1
-				attN = None, -1
-				attN = top, 20
-				attN = None, -1
-				mass = 1.5
-				temp = 0.5770349
-				expt = 0.5
-				state = 0
-				connected = False
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 434534537
-				parent = 0
-				position = -1.84965455532074,-5.99292377501115E-07,-1.57349813889596E-06
-				rotation = 9.170648E-09,9.036254E-09,-0.7071068,0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = top, 0
-				attN = bottom, 2
-				mass = 0.4
-				temp = 0.5769156
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 4062102984
-				parent = 1
-				position = -3.73716235160828,1.41541693210456E-06,-3.96912946598604E-06
-				rotation = 9.170648E-09,9.036254E-09,-0.7071068,0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = top, 1
-				attN = bottom, 3
-				mass = 0.4
-				temp = 0.5735424
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = batteryBank
-				uid = 2984941484
-				parent = 2
-				position = -4.79801511764526,-1.4995142691987E-06,-5.46149021829478E-06
-				rotation = 9.036254E-09,-9.170648E-09,0.7071068,0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = None, -1
-				attN = bottom, 2
-				mass = 0.05
-				temp = 0.5705235
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 494.364727198737
-					maxAmount = 500
-					flowState = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 3956877354
-				parent = 1
-				position = -1.85094904899597,-3.41602998332746E-07,1.23959243297577
-				rotation = 4.947112E-08,5.059397E-08,0.7071068,-0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 10
-				sym = 14
-				srfN = srfAttach, 1
-				attN = None, -1
-				attN = bottom, 5
-				mass = 0.4
-				temp = 0.5736088
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 1077736992
-				parent = 4
-				position = -3.7384569644928,-1.88416765922739E-06,1.23958909511566
-				rotation = 4.947112E-08,5.059397E-08,0.7071068,-0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				sym = 11
-				sym = 15
-				srfN = None, -1
-				attN = top, 4
-				attN = bottom, 6
-				mass = 0.4
-				temp = 0.5714398
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = dockingPort2
-				uid = 3281215138
-				parent = 5
-				position = -4.68845462799072,2.082643391077E-07,1.23959136009216
-				rotation = -0.5,0.5,0.5,0.5
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				sym = 12
-				sym = 16
-				srfN = None, -1
-				attN = None, -1
-				attN = bottom, 5
-				mass = 0.05
-				temp = 0.5690071
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleDockingNode
-					isEnabled = True
-					state = Ready
-					dockUId = 0
-					dockNodeIdx = 0
-					EVENTS
-					{
-						Undock
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						UndockSameVessel
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiIcon = Decouple Node
-							guiName = Decouple Node
-							category = Decouple Node
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						SetAsTarget
-						{
-							active = True
-							guiActive = False
-							guiIcon = Set as Target
-							guiName = Set as Target
-							category = Set as Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						UnsetTarget
-						{
-							active = False
-							guiActive = False
-							guiIcon = Unset Target
-							guiName = Unset Target
-							category = Unset Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						EnableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable Crossfeed
-							guiName = Enable Crossfeed
-							category = Enable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DisableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Disable Crossfeed
-							guiName = Disable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						MakeReferenceTransform
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control from Here
-							guiName = Control from Here
-							category = Control from Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						UndockAction
-						{
-							actionGroup = None
-						}
-						DecoupleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = roverWheel3
-				uid = 4009859296
-				parent = 5
-				position = -3.73845481872559,-1.6513888835907,3.21752023696899
-				rotation = 2.45171E-08,0.7071068,1.660027E-08,0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 5
-				mass = 1.25
-				temp = 0.5677557
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleWheel
-					isEnabled = True
-					brakesEngaged = False
-					steeringLocked = False
-					isDamaged = False
-					invertSteering = True
-					motorEnabled = True
-					EVENTS
-					{
-						UnLockSteering
-						{
-							active = False
-							guiActive = True
-							guiIcon = Unlock Steering
-							guiName = Unlock Steering
-							category = Unlock Steering
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						LockSteering
-						{
-							active = True
-							guiActive = True
-							guiIcon = Lock Steering
-							guiName = Lock Steering
-							category = Lock Steering
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						EnableMotor
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable Motor
-							guiName = Enable Motor
-							category = Enable Motor
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DisableMotor
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable Motor
-							guiName = Disable Motor
-							category = Disable Motor
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						InvertSteering
-						{
-							active = True
-							guiActive = True
-							guiIcon = Invert Steering
-							guiName = Invert Steering
-							category = Invert Steering
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						RepairWheel
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repair Wheel
-							guiName = Repair Wheel
-							category = Repair Wheel
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						InvertSteeringAction
-						{
-							actionGroup = None
-						}
-						LockSteeringAction
-						{
-							actionGroup = None
-						}
-						UnlockSteeringAction
-						{
-							actionGroup = None
-						}
-						ToggleSteeringAction
-						{
-							actionGroup = None
-						}
-						ToggleMotorAction
-						{
-							actionGroup = None
-						}
-						BrakesAction
-						{
-							actionGroup = Brakes
-						}
-					}
-				}
-				MODULE
-				{
-					name = FXModuleLookAtConstraint
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = strutConnector
-				uid = 540264670
-				parent = 4
-				position = -0.941310107707977,0.00315981544554234,1.23958075046539
-				rotation = 2.840283E-10,-3.352605E-08,-1,6.018759E-10
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 13
-				sym = 18
-				srfN = srfAttach, 4
-				mass = 0.05
-				temp = 0.5697755
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = strutConnector
-				uid = 2480216520
-				parent = 4
-				position = -1.85094583034515,0.0646009147167206,1.84029042720795
-				rotation = 3.941467E-08,0.7071068,3.103809E-08,0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 4
-				mass = 0.05
-				temp = 0.5684909
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 2527594669
-				parent = 1
-				position = -1.85094726085663,1.07351934909821,0.619790136814117
-				rotation = 0.3535534,0.3535535,0.6123725,-0.6123725
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 4
-				sym = 14
-				srfN = srfAttach, 1
-				attN = None, -1
-				attN = bottom, 11
-				mass = 0.4
-				temp = 0.5724635
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 3705763292
-				parent = 10
-				position = -3.73847699165344,1.07352161407471,0.619788408279419
-				rotation = 0.3535534,0.3535534,0.6123725,-0.6123725
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				sym = 5
-				sym = 15
-				srfN = None, -1
-				attN = top, 10
-				attN = bottom, 12
-				mass = 0.4
-				temp = 0.5704492
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = dockingPort2
-				uid = 3369511464
-				parent = 11
-				position = -4.68846702575684,1.07351994514465,0.61978942155838
-				rotation = -0.6830128,0.6830127,0.1830126,0.1830126
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				sym = 6
-				sym = 16
-				srfN = None, -1
-				attN = None, -1
-				attN = bottom, 11
-				mass = 0.05
-				temp = 0.5681214
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleDockingNode
-					isEnabled = True
-					state = Ready
-					dockUId = 0
-					dockNodeIdx = 0
-					EVENTS
-					{
-						Undock
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						UndockSameVessel
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiIcon = Decouple Node
-							guiName = Decouple Node
-							category = Decouple Node
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						SetAsTarget
-						{
-							active = True
-							guiActive = False
-							guiIcon = Set as Target
-							guiName = Set as Target
-							category = Set as Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						UnsetTarget
-						{
-							active = False
-							guiActive = False
-							guiIcon = Unset Target
-							guiName = Unset Target
-							category = Unset Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						EnableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable Crossfeed
-							guiName = Enable Crossfeed
-							category = Enable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DisableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Disable Crossfeed
-							guiName = Disable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						MakeReferenceTransform
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control from Here
-							guiName = Control from Here
-							category = Control from Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						UndockAction
-						{
-							actionGroup = None
-						}
-						DecoupleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = strutConnector
-				uid = 1524164860
-				parent = 10
-				position = -0.941301941871643,1.0751006603241,0.617055833339691
-				rotation = 7.901416E-09,-0.5000001,-0.8660254,-8.37815E-09
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 8
-				sym = 18
-				srfN = srfAttach, 10
-				mass = 0.05
-				temp = 0.5687191
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 3761188104
-				parent = 1
-				position = -1.85094845294952,4.3054052412117E-07,-1.23960101604462
-				rotation = -0.7071068,-0.7071068,1.63055E-08,-1.602323E-08
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 4
-				sym = 10
-				srfN = srfAttach, 1
-				attN = None, -1
-				attN = bottom, 15
-				mass = 0.4
-				temp = 0.5723543
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = Mk1FuselageStructural
-				uid = 142100723
-				parent = 14
-				position = -3.73845624923706,2.44517786995857E-06,-1.23960340023041
-				rotation = -0.7071068,-0.7071068,1.63055E-08,-1.602323E-08
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				sym = 5
-				sym = 11
-				srfN = None, -1
-				attN = top, 14
-				attN = bottom, 16
-				mass = 0.4
-				temp = 0.5709031
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = dockingPort2
-				uid = 3790096085
-				parent = 15
-				position = -4.68845415115356,8.61220826209319E-07,-1.23960208892822
-				rotation = 0.5,-0.5,0.5,0.5
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				sym = 6
-				sym = 12
-				srfN = None, -1
-				attN = None, -1
-				attN = bottom, 15
-				mass = 0.05
-				temp = 0.5686778
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleDockingNode
-					isEnabled = True
-					state = Ready
-					dockUId = 0
-					dockNodeIdx = 0
-					EVENTS
-					{
-						Undock
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						UndockSameVessel
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiIcon = Decouple Node
-							guiName = Decouple Node
-							category = Decouple Node
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						SetAsTarget
-						{
-							active = True
-							guiActive = False
-							guiIcon = Set as Target
-							guiName = Set as Target
-							category = Set as Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						UnsetTarget
-						{
-							active = False
-							guiActive = False
-							guiIcon = Unset Target
-							guiName = Unset Target
-							category = Unset Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						EnableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable Crossfeed
-							guiName = Enable Crossfeed
-							category = Enable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DisableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Disable Crossfeed
-							guiName = Disable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						MakeReferenceTransform
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control from Here
-							guiName = Control from Here
-							category = Control from Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						UndockAction
-						{
-							actionGroup = None
-						}
-						DecoupleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = roverWheel3
-				uid = 2587006848
-				parent = 15
-				position = -3.73844790458679,-1.58043169975281,-3.22225165367126
-				rotation = 1.083681E-08,0.7071068,5.908961E-08,-0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 15
-				mass = 1.25
-				temp = 0.5674995
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleWheel
-					isEnabled = True
-					brakesEngaged = False
-					steeringLocked = False
-					isDamaged = False
-					invertSteering = True
-					motorEnabled = True
-					EVENTS
-					{
-						UnLockSteering
-						{
-							active = False
-							guiActive = True
-							guiIcon = Unlock Steering
-							guiName = Unlock Steering
-							category = Unlock Steering
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						LockSteering
-						{
-							active = True
-							guiActive = True
-							guiIcon = Lock Steering
-							guiName = Lock Steering
-							category = Lock Steering
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						EnableMotor
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable Motor
-							guiName = Enable Motor
-							category = Enable Motor
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DisableMotor
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable Motor
-							guiName = Disable Motor
-							category = Disable Motor
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						InvertSteering
-						{
-							active = True
-							guiActive = True
-							guiIcon = Invert Steering
-							guiName = Invert Steering
-							category = Invert Steering
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						RepairWheel
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repair Wheel
-							guiName = Repair Wheel
-							category = Repair Wheel
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						InvertSteeringAction
-						{
-							actionGroup = None
-						}
-						LockSteeringAction
-						{
-							actionGroup = None
-						}
-						UnlockSteeringAction
-						{
-							actionGroup = None
-						}
-						ToggleSteeringAction
-						{
-							actionGroup = None
-						}
-						ToggleMotorAction
-						{
-							actionGroup = None
-						}
-						BrakesAction
-						{
-							actionGroup = Brakes
-						}
-					}
-				}
-				MODULE
-				{
-					name = FXModuleLookAtConstraint
-					isEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = strutConnector
-				uid = 3924923096
-				parent = 14
-				position = -0.941304445266724,-0.00315746152773499,-1.2395955324173
-				rotation = -2.710505E-20,1,0,0
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				sym = 8
-				sym = 13
-				srfN = srfAttach, 14
-				mass = 0.05
-				temp = 0.5687627
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = strutConnector
-				uid = 2146890630
-				parent = 14
-				position = -2.01279640197754,-0.0271693244576454,-1.84362971782684
-				rotation = 8.372504E-08,0.6087615,-6.109692E-08,-0.7933534
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 14
-				mass = 0.05
-				temp = 0.5674765
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			PART
-			{
-				name = probeCoreOcto
-				uid = 4268886785
-				parent = 0
-				position = 2.08473306884116E-06,1.09923219680786,-6.17984233031166E-06
-				rotation = 0,0,0,-1
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 0
-				attN = None, -1
-				mass = 0.1
-				temp = 0.5725722
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = ModuleCommand
-					isEnabled = True
-					controlSrcStatusText = Operational
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = ElectricCharge
-					amount = 0.000277307312215578
-					maxAmount = 5
-					flowState = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = stackPoint1
-				uid = 2994870040
-				parent = 20
-				position = -0.0275345742702484,1.35414254665375,0.0275342408567667
-				rotation = -1.023121E-07,0.7071068,5.161661E-08,-0.7071068
-				mirror = 1,1,1
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sidx = -1
-				attm = 1
-				srfN = srfAttach, 20
-				attN = None, -1
-				mass = 0.04
-				temp = 0.5696024
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 0
-				Gear = True, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 0
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-		}
-		VESSEL
-		{
 			pid = 718351af9cb048768cafd2c2063bb865
 			name = Lone Bagger 18-I
 			type = Probe
@@ -26229,7 +24927,7 @@ GAME
 			landed = True
 			landedAt = KSC
 			splashed = False
-			met = 566.519336451252
+			met = 19075352.5507353
 			lct = 284090.140107054
 			root = 0
 			lat = -0.107219887377406
@@ -26238,7 +24936,7 @@ GAME
 			hgt = 4.297616
 			nrm = 0.001558802,0.9998162,0.01910891
 			rot = -0.1462343,-0.7115662,0.6857666,-0.04487072
-			CoM = -4.974752,-0.7205415,0.008521683
+			CoM = -4.974971,-0.7205091,0.008655745
 			stg = 1
 			prst = False
 			eva = False
@@ -26248,13 +24946,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300812.73553081
-				ECC = 0.994822966923503
-				INC = 0.107291589922468
-				LPE = 90.0000000000001
-				LAN = 169.6837019237
-				MNA = 3.14159148519742
-				EPH = 284656.659443505
+				SMA = 300033.793445423
+				ECC = 1
+				INC = NaN
+				LPE = 105.405088779818
+				LAN = 0
+				MNA = 3.14159265358979
+				EPH = 19359442.7108424
 				REF = 1
 				OBJ = 0
 			}
@@ -26275,7 +24973,7 @@ GAME
 				attN = bottom, 15
 				attN = None, -1
 				mass = 0.1
-				temp = 0.5308683
+				temp = 2.611362E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -26323,7 +25021,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = top, 2
 				mass = 0.04
-				temp = 0.5284984
+				temp = 2.598157E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26352,7 +25050,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 1
 				mass = 0.125
-				temp = 0.5267754
+				temp = 2.584921E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26402,7 +25100,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5241594
+				temp = 2.572685E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26483,7 +25181,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5229895
+				temp = 2.566761E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26564,7 +25262,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5218217
+				temp = 2.560849E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26645,7 +25343,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5206565
+				temp = 2.554953E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26726,7 +25424,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5194939
+				temp = 2.549071E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26807,7 +25505,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5183348
+				temp = 2.543199E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26888,7 +25586,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5171784
+				temp = 2.537349E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -26969,7 +25667,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5160171
+				temp = 2.531478E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27050,7 +25748,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5148591
+				temp = 2.52562E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27131,7 +25829,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5137039
+				temp = 2.519774E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27212,7 +25910,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5125507
+				temp = 2.513945E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27293,7 +25991,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5114008
+				temp = 2.508126E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27373,7 +26071,7 @@ GAME
 				attN = top, 0
 				attN = None, -1
 				mass = 1.5
-				temp = 0.52916
+				temp = 2.59999E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27402,7 +26100,7 @@ GAME
 				attN = top, 15
 				attN = bottom, 17
 				mass = 0.4
-				temp = 0.5278577
+				temp = 2.592496E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27431,7 +26129,7 @@ GAME
 				attN = top, 16
 				attN = bottom, 18
 				mass = 0.4
-				temp = 0.524071
+				temp = 2.579489E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27460,7 +26158,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 17
 				mass = 0.05
-				temp = 0.520965
+				temp = 2.567043E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27502,7 +26200,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 20
 				mass = 0.4
-				temp = 0.5234473
+				temp = 2.572969E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27536,7 +26234,7 @@ GAME
 				attN = top, 19
 				attN = bottom, 21
 				mass = 0.4
-				temp = 0.5207585
+				temp = 2.559941E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27570,7 +26268,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 20
 				mass = 0.05
-				temp = 0.5182499
+				temp = 2.547515E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27705,7 +26403,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_68; pos: -1.883283,0.05644333,0.02018982; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_68; pos: -1.883267,0.0564406,0.02018363; dir: -0.9995528,0.02782731,0.01094306
 				sym = 26
 				sym = 31
 				sym = 36
@@ -27713,7 +26411,7 @@ GAME
 				sym = 45
 				srfN = srfAttach, 19
 				mass = 0.05
-				temp = 0.5196289
+				temp = 2.555299E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -27747,7 +26445,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 24
 				mass = 0.4
-				temp = 0.5227001
+				temp = 2.567587E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27781,7 +26479,7 @@ GAME
 				attN = top, 23
 				attN = bottom, 25
 				mass = 0.4
-				temp = 0.5202734
+				temp = 2.554873E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27815,7 +26513,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 24
 				mass = 0.05
-				temp = 0.5178881
+				temp = 2.542605E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -27950,7 +26648,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_64; pos: -1.882822,0.05715146,0.02143487; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_64; pos: -1.882821,0.05716198,0.02143713; dir: -0.9995528,0.02782731,0.01094306
 				sym = 22
 				sym = 31
 				sym = 36
@@ -27958,7 +26656,7 @@ GAME
 				sym = 45
 				srfN = srfAttach, 23
 				mass = 0.05
-				temp = 0.5189965
+				temp = 2.550035E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -27992,7 +26690,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 28
 				mass = 0.4
-				temp = 0.5223122
+				temp = 2.561945E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28026,7 +26724,7 @@ GAME
 				attN = top, 27
 				attN = bottom, 29
 				mass = 0.4
-				temp = 0.5203617
+				temp = 2.548723E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28060,7 +26758,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 28
 				mass = 0.05
-				temp = 0.5181453
+				temp = 2.536905E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28197,7 +26895,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 28
 				mass = 1.25
-				temp = 0.5170476
+				temp = 2.530609E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -28339,7 +27037,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_58; pos: -1.882726,0.05186835,0.0220988; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_58; pos: -1.88274,0.05187968,0.02209292; dir: -0.9995528,0.02782731,0.01094306
 				sym = 22
 				sym = 26
 				sym = 36
@@ -28347,7 +27045,7 @@ GAME
 				sym = 45
 				srfN = srfAttach, 27
 				mass = 0.05
-				temp = 0.5187675
+				temp = 2.544666E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -28372,10 +27070,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_61; pos: -2.689412,0.267368,5.396702; dir: -0.4453162,0.04325974,0.8943278
+				cData = tgt: roverWheel3_61; pos: -2.68943,0.2673721,5.396669; dir: -0.4453162,0.04325974,0.8943278
 				srfN = srfAttach, 27
 				mass = 0.05
-				temp = 0.5175978
+				temp = 2.53876E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -28409,7 +27107,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 34
 				mass = 0.4
-				temp = 0.5210567
+				temp = 2.556712E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28443,7 +27141,7 @@ GAME
 				attN = top, 33
 				attN = bottom, 35
 				mass = 0.4
-				temp = 0.5190608
+				temp = 2.544515E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28477,7 +27175,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 34
 				mass = 0.05
-				temp = 0.5168794
+				temp = 2.532526E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28612,7 +27310,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_54; pos: -1.882745,0.05102652,0.02090728; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_54; pos: -1.882778,0.05101445,0.02089966; dir: -0.9995528,0.02782731,0.01094306
 				sym = 22
 				sym = 26
 				sym = 31
@@ -28620,7 +27318,7 @@ GAME
 				sym = 45
 				srfN = srfAttach, 33
 				mass = 0.05
-				temp = 0.5175429
+				temp = 2.539368E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -28654,7 +27352,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 38
 				mass = 0.4
-				temp = 0.5203154
+				temp = 2.551371E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28688,7 +27386,7 @@ GAME
 				attN = top, 37
 				attN = bottom, 39
 				mass = 0.4
-				temp = 0.5185806
+				temp = 2.539483E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28722,7 +27420,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 38
 				mass = 0.05
-				temp = 0.5165209
+				temp = 2.527653E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28857,7 +27555,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_50; pos: -1.882398,0.05080982,0.01956824; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_50; pos: -1.882365,0.05083296,0.01956386; dir: -0.9995528,0.02782731,0.01094306
 				sym = 22
 				sym = 26
 				sym = 31
@@ -28865,7 +27563,7 @@ GAME
 				sym = 45
 				srfN = srfAttach, 37
 				mass = 0.05
-				temp = 0.5169178
+				temp = 2.534141E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -28899,7 +27597,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 42
 				mass = 0.4
-				temp = 0.5210316
+				temp = 2.559398E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28933,7 +27631,7 @@ GAME
 				attN = top, 41
 				attN = bottom, 43
 				mass = 0.4
-				temp = 0.5213256
+				temp = 2.563641E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -28967,7 +27665,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 42
 				mass = 0.05
-				temp = 0.521646
+				temp = 2.568736E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29110,7 +27808,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 42
 				mass = 1.25
-				temp = 0.5176462
+				temp = 2.544383E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -29252,7 +27950,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_72; pos: -1.882522,0.05423674,0.02122147; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_72; pos: -1.882534,0.05423592,0.02119653; dir: -0.9995528,0.02782731,0.01094306
 				sym = 22
 				sym = 26
 				sym = 31
@@ -29260,7 +27958,7 @@ GAME
 				sym = 40
 				srfN = srfAttach, 41
 				mass = 0.05
-				temp = 0.5175862
+				temp = 2.541699E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -29285,10 +27983,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_75; pos: -1.151474,0.4815064,-6.058472; dir: -0.1853226,0.07538095,-0.9797822
+				cData = tgt: roverWheel3_75; pos: -1.151456,0.4815097,-6.058465; dir: -0.1853226,0.07538095,-0.9797822
 				srfN = srfAttach, 41
 				mass = 0.05
-				temp = 0.5164145
+				temp = 2.535809E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -29317,7 +28015,7 @@ GAME
 				attN = top, 15
 				attN = bottom, 48
 				mass = 0.4
-				temp = 0.5275128
+				temp = 2.586716E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29346,7 +28044,7 @@ GAME
 				attN = top, 47
 				attN = bottom, 49
 				mass = 0.4
-				temp = 0.5238608
+				temp = 2.574707E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29375,7 +28073,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 48
 				mass = 0.05
-				temp = 0.520814
+				temp = 2.562705E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29417,7 +28115,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 51
 				mass = 0.4
-				temp = 0.5231236
+				temp = 2.568656E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29451,7 +28149,7 @@ GAME
 				attN = top, 50
 				attN = bottom, 52
 				mass = 0.4
-				temp = 0.5204221
+				temp = 2.556378E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29485,7 +28183,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 51
 				mass = 0.05
-				temp = 0.517904
+				temp = 2.544283E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29620,7 +28318,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_40; pos: 0.1165577,1.824837,-0.01541411; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_40; pos: 0.1165691,1.82487,-0.01538789; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 57
 				sym = 62
 				sym = 67
@@ -29628,7 +28326,7 @@ GAME
 				sym = 76
 				srfN = srfAttach, 50
 				mass = 0.05
-				temp = 0.519315
+				temp = 2.551372E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -29662,7 +28360,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 55
 				mass = 0.4
-				temp = 0.5223705
+				temp = 2.56328E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29696,7 +28394,7 @@ GAME
 				attN = top, 54
 				attN = bottom, 56
 				mass = 0.4
-				temp = 0.5199286
+				temp = 2.551308E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29730,7 +28428,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 55
 				mass = 0.05
-				temp = 0.5175331
+				temp = 2.539369E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29865,7 +28563,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_36; pos: 0.1141497,1.825221,-0.01187565; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_36; pos: 0.1141288,1.825248,-0.01189344; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 53
 				sym = 62
 				sym = 67
@@ -29873,7 +28571,7 @@ GAME
 				sym = 76
 				srfN = srfAttach, 54
 				mass = 0.05
-				temp = 0.5186764
+				temp = 2.546115E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -29907,7 +28605,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 59
 				mass = 0.4
-				temp = 0.5221661
+				temp = 2.558289E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29941,7 +28639,7 @@ GAME
 				attN = top, 58
 				attN = bottom, 60
 				mass = 0.4
-				temp = 0.5202941
+				temp = 2.546125E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -29975,7 +28673,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 59
 				mass = 0.05
-				temp = 0.5180998
+				temp = 2.534622E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30112,7 +28810,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 59
 				mass = 1.25
-				temp = 0.5170068
+				temp = 2.52842E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -30254,7 +28952,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_31; pos: 0.1107995,1.825047,-0.01815284; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_31; pos: 0.1107709,1.825058,-0.01813743; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 53
 				sym = 57
 				sym = 67
@@ -30262,7 +28960,7 @@ GAME
 				sym = 76
 				srfN = srfAttach, 58
 				mass = 0.05
-				temp = 0.5186622
+				temp = 2.541384E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -30287,10 +28985,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_30; pos: -2.520162,0.3647745,-5.401729; dir: -0.4230976,0.05340252,-0.904509
+				cData = tgt: roverWheel3_30; pos: -2.52019,0.3647699,-5.401718; dir: -0.4230976,0.05340252,-0.904509
 				srfN = srfAttach, 58
 				mass = 0.05
-				temp = 0.517492
+				temp = 2.535488E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -30324,7 +29022,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 65
 				mass = 0.4
-				temp = 0.5210378
+				temp = 2.552722E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30358,7 +29056,7 @@ GAME
 				attN = top, 64
 				attN = bottom, 66
 				mass = 0.4
-				temp = 0.5192125
+				temp = 2.541471E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30392,7 +29090,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 65
 				mass = 0.05
-				temp = 0.517104
+				temp = 2.529902E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30527,7 +29225,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_26; pos: 0.1093924,1.825131,-0.02313786; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_26; pos: 0.1093936,1.825103,-0.02316132; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 53
 				sym = 57
 				sym = 62
@@ -30535,7 +29233,7 @@ GAME
 				sym = 76
 				srfN = srfAttach, 64
 				mass = 0.05
-				temp = 0.5176098
+				temp = 2.535815E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -30569,7 +29267,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 69
 				mass = 0.4
-				temp = 0.5203007
+				temp = 2.54739E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30603,7 +29301,7 @@ GAME
 				attN = top, 68
 				attN = bottom, 70
 				mass = 0.4
-				temp = 0.5187377
+				temp = 2.536449E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30637,7 +29335,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 69
 				mass = 0.05
-				temp = 0.5167528
+				temp = 2.52504E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30772,7 +29470,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_22; pos: 0.1102463,1.825447,-0.02792508; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_22; pos: 0.1102675,1.825459,-0.0279119; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 53
 				sym = 57
 				sym = 62
@@ -30780,7 +29478,7 @@ GAME
 				sym = 76
 				srfN = srfAttach, 68
 				mass = 0.05
-				temp = 0.516988
+				temp = 2.530605E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -30814,7 +29512,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 73
 				mass = 0.4
-				temp = 0.5202947
+				temp = 2.543668E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30848,7 +29546,7 @@ GAME
 				attN = top, 72
 				attN = bottom, 74
 				mass = 0.4
-				temp = 0.5193087
+				temp = 2.533412E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -30882,7 +29580,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 73
 				mass = 0.05
-				temp = 0.5173792
+				temp = 2.522492E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31019,7 +29717,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 73
 				mass = 1.25
-				temp = 0.5163516
+				temp = 2.516547E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31161,7 +29859,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_45; pos: 0.1145961,1.824962,-0.01862598; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_45; pos: 0.1145978,1.824962,-0.0186311; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 53
 				sym = 57
 				sym = 62
@@ -31169,7 +29867,7 @@ GAME
 				sym = 71
 				srfN = srfAttach, 72
 				mass = 0.05
-				temp = 0.5170964
+				temp = 2.527175E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31194,10 +29892,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_44; pos: -1.223454,0.5198694,6.087816; dir: -0.1968873,0.07415567,0.9776177
+				cData = tgt: roverWheel3_44; pos: -1.223482,0.5198621,6.087805; dir: -0.1968873,0.07415567,0.9776177
 				srfN = srfAttach, 72
 				mass = 0.05
-				temp = 0.5159236
+				temp = 2.521302E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31231,7 +29929,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 79
 				mass = 0.05
-				temp = 0.5221575
+				temp = 2.573921E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31381,7 +30079,7 @@ GAME
 				attN = top, 81
 				attN = bottom, 78
 				mass = 0.4
-				temp = 0.5231795
+				temp = 2.580234E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31408,7 +30106,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 79
 				mass = 1.25
-				temp = 0.5200037
+				temp = 2.566508E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31559,7 +30257,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 79
 				mass = 0.4
-				temp = 0.5252405
+				temp = 2.588175E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31584,7 +30282,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_139; pos: 0.1079756,1.825,-0.0271229; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_139; pos: 0.1079801,1.82503,-0.02711608; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 90
 				sym = 94
 				sym = 99
@@ -31592,7 +30290,7 @@ GAME
 				sym = 108
 				srfN = srfAttach, 81
 				mass = 0.05
-				temp = 0.5221084
+				temp = 2.575372E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31620,7 +30318,7 @@ GAME
 				cData = tgt: roverWheel3_138; pos: -1.220249,0.4865191,6.088142; dir: -0.1968873,0.07415567,0.9776177
 				srfN = srfAttach, 81
 				mass = 0.05
-				temp = 0.520945
+				temp = 2.569415E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31649,7 +30347,7 @@ GAME
 				attN = top, 109
 				attN = bottom, 85
 				mass = 0.4
-				temp = 0.5271533
+				temp = 2.588277E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31678,7 +30376,7 @@ GAME
 				attN = top, 84
 				attN = bottom, 86
 				mass = 0.4
-				temp = 0.5235587
+				temp = 2.57551E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31707,7 +30405,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 85
 				mass = 0.05
-				temp = 0.52056
+				temp = 2.563188E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31749,7 +30447,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 88
 				mass = 0.4
-				temp = 0.5228823
+				temp = 2.569173E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31783,7 +30481,7 @@ GAME
 				attN = top, 87
 				attN = bottom, 89
 				mass = 0.4
-				temp = 0.5202716
+				temp = 2.5564E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31817,7 +30515,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 88
 				mass = 0.05
-				temp = 0.5177966
+				temp = 2.544095E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -31952,7 +30650,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_134; pos: 0.1079466,1.825252,-0.02558698; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_134; pos: 0.1079435,1.825267,-0.02560082; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 82
 				sym = 94
 				sym = 99
@@ -31960,7 +30658,7 @@ GAME
 				sym = 108
 				srfN = srfAttach, 87
 				mass = 0.05
-				temp = 0.5191115
+				temp = 2.551636E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -31994,7 +30692,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 92
 				mass = 0.4
-				temp = 0.5221311
+				temp = 2.563795E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32028,7 +30726,7 @@ GAME
 				attN = top, 91
 				attN = bottom, 93
 				mass = 0.4
-				temp = 0.5197786
+				temp = 2.551331E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32062,7 +30760,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 92
 				mass = 0.05
-				temp = 0.5174253
+				temp = 2.539184E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32197,7 +30895,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_130; pos: 0.1075395,1.825449,-0.02332166; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_130; pos: 0.1075412,1.82548,-0.02332584; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 82
 				sym = 90
 				sym = 99
@@ -32205,7 +30903,7 @@ GAME
 				sym = 108
 				srfN = srfAttach, 91
 				mass = 0.05
-				temp = 0.5184735
+				temp = 2.546372E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -32239,7 +30937,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 96
 				mass = 0.4
-				temp = 0.521965
+				temp = 2.558647E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32273,7 +30971,7 @@ GAME
 				attN = top, 95
 				attN = bottom, 97
 				mass = 0.4
-				temp = 0.5201913
+				temp = 2.545981E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32307,7 +31005,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 96
 				mass = 0.05
-				temp = 0.5180286
+				temp = 2.534336E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32444,7 +31142,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 96
 				mass = 1.25
-				temp = 0.5169437
+				temp = 2.528097E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -32586,7 +31284,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_125; pos: 0.1078418,1.825062,-0.02651107; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_125; pos: 0.1078687,1.825052,-0.02652142; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 82
 				sym = 90
 				sym = 94
@@ -32594,7 +31292,7 @@ GAME
 				sym = 108
 				srfN = srfAttach, 95
 				mass = 0.05
-				temp = 0.518493
+				temp = 2.541529E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -32619,10 +31317,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_124; pos: -2.52383,0.3407038,-5.401175; dir: -0.4230976,0.05340252,-0.904509
+				cData = tgt: roverWheel3_124; pos: -2.523803,0.3407042,-5.401171; dir: -0.4230976,0.05340252,-0.904509
 				srfN = srfAttach, 95
 				mass = 0.05
-				temp = 0.5173228
+				temp = 2.535633E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -32656,7 +31354,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 102
 				mass = 0.4
-				temp = 0.5207974
+				temp = 2.553232E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32690,7 +31388,7 @@ GAME
 				attN = top, 101
 				attN = bottom, 103
 				mass = 0.4
-				temp = 0.5190576
+				temp = 2.541485E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32724,7 +31422,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 102
 				mass = 0.05
-				temp = 0.516991
+				temp = 2.52971E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32859,7 +31557,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_120; pos: 0.1055042,1.825426,-0.02909615; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_120; pos: 0.1054999,1.825459,-0.02910683; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 82
 				sym = 90
 				sym = 94
@@ -32867,7 +31565,7 @@ GAME
 				sym = 108
 				srfN = srfAttach, 101
 				mass = 0.05
-				temp = 0.5174049
+				temp = 2.536076E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -32901,7 +31599,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 106
 				mass = 0.4
-				temp = 0.5200599
+				temp = 2.547901E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32935,7 +31633,7 @@ GAME
 				attN = top, 105
 				attN = bottom, 107
 				mass = 0.4
-				temp = 0.5185821
+				temp = 2.53646E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -32969,7 +31667,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 106
 				mass = 0.05
-				temp = 0.5166388
+				temp = 2.524843E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33104,7 +31802,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: strutConnector_116; pos: 0.1081895,1.825454,-0.02860019; dir: 0.06169295,0.9980367,-0.01079669
+				cData = tgt: strutConnector_116; pos: 0.1082015,1.825439,-0.02860205; dir: 0.06169295,0.9980367,-0.01079669
 				sym = 82
 				sym = 90
 				sym = 94
@@ -33112,7 +31810,7 @@ GAME
 				sym = 104
 				srfN = srfAttach, 105
 				mass = 0.05
-				temp = 0.5167822
+				temp = 2.530855E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -33145,7 +31843,7 @@ GAME
 				attN = top, 141
 				attN = None, -1
 				mass = 1.5
-				temp = 0.5249705
+				temp = 2.574527E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33174,7 +31872,7 @@ GAME
 				attN = top, 109
 				attN = bottom, 111
 				mass = 0.4
-				temp = 0.5269322
+				temp = 2.579804E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33203,7 +31901,7 @@ GAME
 				attN = top, 110
 				attN = bottom, 112
 				mass = 0.4
-				temp = 0.523536
+				temp = 2.568702E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33232,7 +31930,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 111
 				mass = 0.05
-				temp = 0.5206036
+				temp = 2.557138E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33274,7 +31972,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 114
 				mass = 0.4
-				temp = 0.5230064
+				temp = 2.563531E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33308,7 +32006,7 @@ GAME
 				attN = top, 113
 				attN = bottom, 115
 				mass = 0.4
-				temp = 0.5205351
+				temp = 2.552261E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33342,7 +32040,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 114
 				mass = 0.05
-				temp = 0.5181131
+				temp = 2.540624E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33477,7 +32175,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_105; pos: -1.883389,0.05580566,0.02069125; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_105; pos: -1.883392,0.05581721,0.02069347; dir: -0.9995528,0.02782731,0.01094306
 				sym = 120
 				sym = 125
 				sym = 130
@@ -33485,7 +32183,7 @@ GAME
 				sym = 139
 				srfN = srfAttach, 113
 				mass = 0.05
-				temp = 0.5193255
+				temp = 2.546702E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -33519,7 +32217,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 118
 				mass = 0.4
-				temp = 0.5222607
+				temp = 2.558171E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33553,7 +32251,7 @@ GAME
 				attN = top, 117
 				attN = bottom, 119
 				mass = 0.4
-				temp = 0.5200503
+				temp = 2.547207E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33587,7 +32285,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 118
 				mass = 0.05
-				temp = 0.5177522
+				temp = 2.535733E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33722,7 +32420,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_101; pos: -1.883384,0.05748568,0.0216684; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_101; pos: -1.883374,0.05750286,0.0216491; dir: -0.9995528,0.02782731,0.01094306
 				sym = 116
 				sym = 125
 				sym = 130
@@ -33730,7 +32428,7 @@ GAME
 				sym = 139
 				srfN = srfAttach, 117
 				mass = 0.05
-				temp = 0.5186942
+				temp = 2.541456E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -33764,7 +32462,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 122
 				mass = 0.4
-				temp = 0.5219477
+				temp = 2.553641E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33798,7 +32496,7 @@ GAME
 				attN = top, 121
 				attN = bottom, 123
 				mass = 0.4
-				temp = 0.5202113
+				temp = 2.54267E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33832,7 +32530,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 122
 				mass = 0.05
-				temp = 0.5180552
+				temp = 2.531529E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -33969,7 +32667,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 122
 				mass = 1.25
-				temp = 0.5169695
+				temp = 2.525437E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -34111,7 +32809,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_95; pos: -1.882964,0.0553163,0.02122119; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_95; pos: -1.882968,0.05531233,0.02120253; dir: -0.9995528,0.02782731,0.01094306
 				sym = 116
 				sym = 120
 				sym = 130
@@ -34119,7 +32817,7 @@ GAME
 				sym = 139
 				srfN = srfAttach, 121
 				mass = 0.05
-				temp = 0.5185187
+				temp = 2.537133E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -34144,10 +32842,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_98; pos: -2.686727,0.2800414,5.396227; dir: -0.4453162,0.04325974,0.8943278
+				cData = tgt: roverWheel3_98; pos: -2.686752,0.2800406,5.396238; dir: -0.4453162,0.04325974,0.8943278
 				srfN = srfAttach, 121
 				mass = 0.05
-				temp = 0.5173465
+				temp = 2.53123E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -34181,7 +32879,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 128
 				mass = 0.4
-				temp = 0.5206195
+				temp = 2.547342E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34215,7 +32913,7 @@ GAME
 				attN = top, 127
 				attN = bottom, 129
 				mass = 0.4
-				temp = 0.5188408
+				temp = 2.53689E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34249,7 +32947,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 128
 				mass = 0.05
-				temp = 0.5167443
+				temp = 2.525685E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34384,7 +33082,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_91; pos: -1.883276,0.05454795,0.02180981; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_91; pos: -1.883276,0.05455124,0.02181164; dir: -0.9995528,0.02782731,0.01094306
 				sym = 116
 				sym = 120
 				sym = 125
@@ -34392,7 +33090,7 @@ GAME
 				sym = 139
 				srfN = srfAttach, 127
 				mass = 0.05
-				temp = 0.517244
+				temp = 2.53083E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -34426,7 +33124,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 132
 				mass = 0.4
-				temp = 0.5198796
+				temp = 2.542017E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34460,7 +33158,7 @@ GAME
 				attN = top, 131
 				attN = bottom, 133
 				mass = 0.4
-				temp = 0.5183595
+				temp = 2.531873E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34494,7 +33192,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 132
 				mass = 0.05
-				temp = 0.5163845
+				temp = 2.520826E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34629,7 +33327,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_87; pos: -1.883122,0.05491764,0.02133548; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_87; pos: -1.883139,0.05490972,0.02133978; dir: -0.9995528,0.02782731,0.01094306
 				sym = 116
 				sym = 120
 				sym = 125
@@ -34637,7 +33335,7 @@ GAME
 				sym = 139
 				srfN = srfAttach, 131
 				mass = 0.05
-				temp = 0.5166172
+				temp = 2.525621E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -34671,7 +33369,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 136
 				mass = 0.4
-				temp = 0.5200676
+				temp = 2.539013E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34705,7 +33403,7 @@ GAME
 				attN = top, 135
 				attN = bottom, 137
 				mass = 0.4
-				temp = 0.5192077
+				temp = 2.529901E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34739,7 +33437,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 136
 				mass = 0.05
-				temp = 0.5173147
+				temp = 2.519342E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -34876,7 +33574,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 136
 				mass = 1.25
-				temp = 0.5162978
+				temp = 2.51349E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -35018,7 +33716,7 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: Mk1FuselageStructural_81; pos: -1.882849,0.05692189,0.02170807; dir: -0.9995528,0.02782731,0.01094306
+				cData = tgt: Mk1FuselageStructural_81; pos: -1.88286,0.05691738,0.02167956; dir: -0.9995528,0.02782731,0.01094306
 				sym = 116
 				sym = 120
 				sym = 125
@@ -35026,7 +33724,7 @@ GAME
 				sym = 134
 				srfN = srfAttach, 135
 				mass = 0.05
-				temp = 0.5169433
+				temp = 2.522909E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -35051,10 +33749,10 @@ GAME
 				sqor = -1
 				sidx = -1
 				attm = 1
-				cData = tgt: roverWheel3_80; pos: -1.148306,0.4522374,-6.066367; dir: -0.1853226,0.07538095,-0.9797822
+				cData = tgt: roverWheel3_80; pos: -1.14833,0.4522378,-6.066378; dir: -0.1853226,0.07538095,-0.9797822
 				srfN = srfAttach, 135
 				mass = 0.05
-				temp = 0.5157694
+				temp = 2.517037E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -35083,7 +33781,7 @@ GAME
 				attN = bottom, 109
 				attN = None, -1
 				mass = 0.1
-				temp = 0.52439
+				temp = 2.571072E-05
 				expt = 0
 				state = 0
 				connected = True
@@ -35131,7 +33829,7 @@ GAME
 				srfN = srfAttach, 141
 				attN = top, 143
 				mass = 0.04
-				temp = 0.5251452
+				temp = 2.571545E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35160,7 +33858,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 142
 				mass = 0.125
-				temp = 0.5261254
+				temp = 2.571273E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35210,7 +33908,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5237215
+				temp = 2.560099E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35291,7 +33989,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5225524
+				temp = 2.554205E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35372,7 +34070,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5213847
+				temp = 2.548322E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35453,7 +34151,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5202203
+				temp = 2.542457E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35534,7 +34232,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5190582
+				temp = 2.536603E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35615,7 +34313,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5178997
+				temp = 2.530761E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35696,7 +34394,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5167438
+				temp = 2.524931E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35777,7 +34475,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5155836
+				temp = 2.519087E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35858,7 +34556,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5144271
+				temp = 2.513257E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -35939,7 +34637,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.5132726
+				temp = 2.507443E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -36020,7 +34718,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.51212
+				temp = 2.501639E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -36101,7 +34799,7 @@ GAME
 				attN = None, -1
 				attN = None, -1
 				mass = 0.08
-				temp = 0.510971
+				temp = 2.49585E-05
 				expt = 0.5
 				state = 0
 				connected = True
@@ -36204,8 +34902,8 @@ GAME
 			prst = False
 			eva = False
 			ref = 3780248084
-			cPch = 0.7519999
-			cHdg = -0.6119966
+			cPch = 
+			cHdg = 
 			cMod = 1
 			ORBIT
 			{
