@@ -1,0 +1,1005 @@
+ship = Gary
+version = 0.19.1
+type = VAB
+PART
+{
+	part = probeCoreSphere_4294875442
+	partName = CommandPod
+	pos = 0.193663,24.11959,0.00343987
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = advSasModule_4294858252
+	attN = bottom,advSasModule_4294858252
+	EVENTS
+	{
+		MakeReference
+		{
+			active = True
+			guiActive = True
+			guiIcon = Control From Here
+			guiName = Control From Here
+			category = Control From Here
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+		RenameVessel
+		{
+			active = True
+			guiActive = True
+			guiIcon = Rename Vessel
+			guiName = Rename Vessel
+			category = Rename Vessel
+			guiActiveUnfocused = False
+			unfocusedRange = 2
+			externalToEVAOnly = True
+		}
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = advSasModule_4294858252
+	partName = AdvSASModule
+	pos = 0.193663,23.58222,0.00343987
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = batteryBank_4294856776
+	link = ksp.r.largeBatteryPack_4294855882
+	link = ksp.r.largeBatteryPack_4294855856
+	link = ksp.r.largeBatteryPack_4294855830
+	link = ksp.r.largeBatteryPack_4294855804
+	link = ksp.r.largeBatteryPack_4294855778
+	link = ksp.r.largeBatteryPack_4294855752
+	link = ksp.r.largeBatteryPack_4294855726
+	link = ksp.r.largeBatteryPack_4294856082
+	attN = top,probeCoreSphere_4294875442
+	attN = bottom,batteryBank_4294856776
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = batteryBank_4294856776
+	partName = Part
+	pos = 0.193663,23.27234,0.00343987
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = batteryBank_4294837454
+	attN = top,advSasModule_4294858252
+	attN = bottom,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855882
+	partName = Part
+	pos = -0.2335008,23.50139,-0.4237238
+	rot = 0,-0.3826835,0,-0.9238795
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855752
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855856
+	partName = Part
+	pos = -0.4104377,23.50139,0.003439894
+	rot = 0,-0.7071069,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855752
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855830
+	partName = Part
+	pos = -0.2335007,23.50139,0.4306036
+	rot = 0,-0.9238796,0,-0.3826834
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855752
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855804
+	partName = Part
+	pos = 0.1936632,23.50139,0.6075406
+	rot = 0,-1,0,8.742278E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855752
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855778
+	partName = Part
+	pos = 0.6208268,23.50139,0.4306035
+	rot = 0,-0.9238795,0,0.3826835
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855752
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855752
+	partName = Part
+	pos = 0.7977637,23.50139,0.003439775
+	rot = 0,-0.7071068,0,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294855726
+	partName = Part
+	pos = 0.6208266,23.50139,-0.4237241
+	rot = 0,-0.3826832,0,0.9238796
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294856082
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855752
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = ksp.r.largeBatteryPack_4294856082
+	partName = Part
+	pos = 0.193663,23.50139,-0.6006609
+	rot = 0,-4.371139E-08,0,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = ksp.r.largeBatteryPack_4294855882
+	sym = ksp.r.largeBatteryPack_4294855856
+	sym = ksp.r.largeBatteryPack_4294855830
+	sym = ksp.r.largeBatteryPack_4294855804
+	sym = ksp.r.largeBatteryPack_4294855778
+	sym = ksp.r.largeBatteryPack_4294855752
+	sym = ksp.r.largeBatteryPack_4294855726
+	srfN = srfAttach,advSasModule_4294858252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = batteryBank_4294837454
+	partName = Part
+	pos = 0.193663,23.05062,0.00343987
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = batteryBank_4294837016
+	link = solarPanels3_4294828808
+	link = solarPanels3_4294828706
+	link = solarPanels3_4294828604
+	link = solarPanels3_4294828502
+	link = solarPanels3_4294828400
+	link = solarPanels3_4294828298
+	link = solarPanels3_4294828196
+	link = solarPanels3_4294831070
+	attN = top,batteryBank_4294856776
+	attN = bottom,batteryBank_4294837016
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = batteryBank_4294837016
+	partName = Part
+	pos = 0.193663,22.82891,0.00343987
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = top,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = solarPanels3_4294828808
+	partName = Part
+	pos = -0.2347812,23.01549,-0.4250042
+	rot = 0,0.3826833,0,-0.9238796
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828298
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294828706
+	partName = Part
+	pos = -0.4122484,23.01549,0.003439894
+	rot = 0,-8.42937E-08,0,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828298
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294828604
+	partName = Part
+	pos = -0.2347811,23.01549,0.431884
+	rot = 0,-0.3826835,0,-0.9238796
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828298
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294828502
+	partName = Part
+	pos = 0.1936632,23.01549,0.6093513
+	rot = 0,-0.7071069,0,-0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828298
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294828400
+	partName = Part
+	pos = 0.6221073,23.01549,0.4318839
+	rot = 0,-0.9238796,0,-0.3826833
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828298
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294828298
+	partName = Part
+	pos = 0.7995745,23.01549,0.003439775
+	rot = 0,-1,0,8.42937E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294828196
+	partName = Part
+	pos = 0.622107,23.01549,-0.4250044
+	rot = 0,-0.9238795,0,0.3826837
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294831070
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828298
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = solarPanels3_4294831070
+	partName = Part
+	pos = 0.193663,23.01549,-0.6024716
+	rot = 0,0.7071068,0,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	sym = solarPanels3_4294828808
+	sym = solarPanels3_4294828706
+	sym = solarPanels3_4294828604
+	sym = solarPanels3_4294828502
+	sym = solarPanels3_4294828400
+	sym = solarPanels3_4294828298
+	sym = solarPanels3_4294828196
+	srfN = srfAttach,batteryBank_4294837454
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, 0, 0)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 0
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
