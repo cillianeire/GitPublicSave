@@ -1,6 +1,6 @@
 GAME
 {
-	version = 0.21.0
+	version = 0.19.1
 	Title = default (Sandbox)
 	Description = No description available.
 	Mode = 0
@@ -57,9 +57,39 @@ GAME
 	}
 	FLIGHTSTATE
 	{
-		version = 0.21.0
+		version = 0.19.1
 		UT = 24303501.0649148
 		activeVessel = 87
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 0
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 0
+			ToD = 0
+			idx = -1
+		}
 		VESSEL
 		{
 			pid = e4ba9deb589b4a9f8b8bf7aff6a50952
@@ -60121,46 +60151,5 @@ GAME
 				Custom10 = False, 0
 			}
 		}
-	}
-	ROSTER
-	{
-		CREW
-		{
-			name = Jebediah Kerman
-			brave = 0.5
-			dumb = 0.5
-			badS = True
-			state = 0
-			ToD = 0
-			idx = 0
-		}
-		CREW
-		{
-			name = Bill Kerman
-			brave = 0.5
-			dumb = 0.8
-			badS = False
-			state = 0
-			ToD = 0
-			idx = -1
-		}
-		CREW
-		{
-			name = Bob Kerman
-			brave = 0.3
-			dumb = 0.1
-			badS = False
-			state = 0
-			ToD = 0
-			idx = -1
-		}
-		APPLICANTS
-		{
-		}
-	}
-	SCENARIO
-	{
-		name = ProgressTracking
-		scene = 5, 7, 8
 	}
 }
